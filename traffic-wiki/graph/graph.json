@@ -1,5 +1,2710 @@
 {
-  "edges": [],
-  "nodes": [],
+  "edges": [
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:001",
+      "predicate": "participated_in",
+      "source": "person:j-douglas-carroll-jr",
+      "status": "proposed",
+      "target": "project:detroit-metropolitan-area-traffic-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:002",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "method:origin-destination-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:003",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "method:home-interview-travel-survey"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:004",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "method:sequential-urban-travel-forecasting-procedure"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:005",
+      "predicate": "formulated",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "model:dmats-predictive-zonal-interchange-formula"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:006",
+      "predicate": "uses",
+      "source": "model:dmats-predictive-zonal-interchange-formula",
+      "status": "proposed",
+      "target": "concept:travel-friction"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:007",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "model:dmats-predictive-zonal-interchange-formula"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:008",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "method:modified-growth-factor-method"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:009",
+      "predicate": "extends",
+      "source": "method:modified-growth-factor-method",
+      "status": "proposed",
+      "target": "method:fratar-growth-factor-method"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:010",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "method:desire-line-density-analysis"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:011",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "method:areawide-traffic-assignment"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:012",
+      "predicate": "produced",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "project:1980-detroit-expressway-plan"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:013",
+      "predicate": "uses",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "method:trip-table-balancing"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:014",
+      "predicate": "uses",
+      "source": "method:sequential-urban-travel-forecasting-procedure",
+      "status": "proposed",
+      "target": "concept:feedback-in-travel-forecasting"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:015",
+      "predicate": "codified_in",
+      "source": "project:national-system-of-interstate-and-defense-highways",
+      "status": "proposed",
+      "target": "policy:federal-aid-highway-act-of-1944"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:016",
+      "predicate": "enabled_by",
+      "source": "project:national-system-of-interstate-and-defense-highways",
+      "status": "proposed",
+      "target": "policy:federal-aid-highway-act-of-1956"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:017",
+      "predicate": "uses",
+      "source": "policy:federal-aid-highway-act-of-1956",
+      "status": "proposed",
+      "target": "concept:highway-user-taxes"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:018",
+      "predicate": "preceded",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "project:chicago-area-transportation-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:019",
+      "predicate": "participated_in",
+      "source": "person:j-douglas-carroll-jr",
+      "status": "proposed",
+      "target": "project:chicago-area-transportation-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:020",
+      "predicate": "participated_in",
+      "source": "person:roger-creighton",
+      "status": "proposed",
+      "target": "project:chicago-area-transportation-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:021",
+      "predicate": "derived_from",
+      "source": "project:chicago-area-transportation-study",
+      "status": "proposed",
+      "target": "project:detroit-metropolitan-area-traffic-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:022",
+      "predicate": "formulated",
+      "source": "person:morton-schneider",
+      "status": "proposed",
+      "target": "model:intervening-opportunities-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:023",
+      "predicate": "adopted_by",
+      "source": "model:intervening-opportunities-model",
+      "status": "proposed",
+      "target": "organization:bureau-of-public-roads"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:024",
+      "predicate": "formulated",
+      "source": "person:edward-moore",
+      "status": "proposed",
+      "target": "algorithm:label-correcting-algorithm"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:025",
+      "predicate": "uses",
+      "source": "organization:armour-research-foundation",
+      "status": "proposed",
+      "target": "algorithm:label-correcting-algorithm"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:026",
+      "predicate": "implemented_in",
+      "source": "algorithm:label-correcting-algorithm",
+      "status": "proposed",
+      "target": "project:chicago-area-transportation-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:027",
+      "predicate": "formulated",
+      "source": "project:chicago-area-transportation-study",
+      "status": "proposed",
+      "target": "method:tree-by-tree-incremental-assignment"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:028",
+      "predicate": "uses",
+      "source": "method:tree-by-tree-incremental-assignment",
+      "status": "proposed",
+      "target": "concept:shortest-route-problem"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:029",
+      "predicate": "uses",
+      "source": "method:integrated-trip-distribution-and-traffic-assignment",
+      "status": "proposed",
+      "target": "model:intervening-opportunities-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:030",
+      "predicate": "uses",
+      "source": "project:chicago-area-transportation-study",
+      "status": "proposed",
+      "target": "technology:ibm-704"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:031",
+      "predicate": "uses",
+      "source": "project:chicago-area-transportation-study",
+      "status": "proposed",
+      "target": "tool:cartographatron"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:032",
+      "predicate": "applied_to",
+      "source": "tool:cartographatron",
+      "status": "proposed",
+      "target": "project:1956-chicago-origin-destination-survey"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:033",
+      "predicate": "produced",
+      "source": "organization:bureau-of-public-roads",
+      "status": "proposed",
+      "target": "tool:bpr-highway-program-battery"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:034",
+      "predicate": "uses",
+      "source": "tool:bpr-highway-program-battery",
+      "status": "proposed",
+      "target": "method:all-or-nothing-assignment"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:035",
+      "predicate": "operationalizes",
+      "source": "method:fratar-growth-factor-method",
+      "status": "proposed",
+      "target": "method:trip-distribution"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:036",
+      "predicate": "operationalizes",
+      "source": "model:bpr-gravity-model",
+      "status": "proposed",
+      "target": "method:trip-distribution"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:037",
+      "predicate": "uses",
+      "source": "model:bpr-gravity-model",
+      "status": "proposed",
+      "target": "concept:friction-factor"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:038",
+      "predicate": "uses",
+      "source": "model:bpr-gravity-model",
+      "status": "proposed",
+      "target": "concept:k-factor"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:039",
+      "predicate": "uses",
+      "source": "method:trip-generation-analysis",
+      "status": "proposed",
+      "target": "concept:zonal-characteristic"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:040",
+      "predicate": "uses",
+      "source": "model:trip-end-modal-split-model",
+      "status": "proposed",
+      "target": "concept:zonal-characteristic"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:041",
+      "predicate": "contrasts_with",
+      "source": "model:trip-interchange-modal-split-model",
+      "status": "proposed",
+      "target": "model:trip-end-modal-split-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:042",
+      "predicate": "uses",
+      "source": "model:trip-interchange-modal-split-model",
+      "status": "proposed",
+      "target": "concept:interzonal-modal-travel-time-and-cost"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:043",
+      "predicate": "uses",
+      "source": "method:iterative-capacity-restraint-assignment",
+      "status": "proposed",
+      "target": "method:all-or-nothing-assignment"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:044",
+      "predicate": "uses",
+      "source": "method:iterative-capacity-restraint-assignment",
+      "status": "proposed",
+      "target": "model:bpr-volume-delay-function"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:045",
+      "predicate": "uses",
+      "source": "model:bpr-volume-delay-function",
+      "status": "proposed",
+      "target": "metric:practical-capacity"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:046",
+      "predicate": "formulated",
+      "source": "person:robert-dial",
+      "status": "proposed",
+      "target": "method:stoch"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:047",
+      "predicate": "contrasts_with",
+      "source": "method:stoch",
+      "status": "proposed",
+      "target": "method:all-or-nothing-assignment"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:048",
+      "predicate": "extends",
+      "source": "model:helvig-gravity-model-of-external-truck-movements",
+      "status": "proposed",
+      "target": "model:gravity-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:049",
+      "predicate": "derived_from",
+      "source": "model:hill-truck-interactance-model",
+      "status": "proposed",
+      "target": "model:gravity-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:050",
+      "predicate": "codified_in",
+      "source": "concept:comprehensive-urban-transportation-planning-process",
+      "status": "proposed",
+      "target": "policy:federal-aid-highway-act-of-1962"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:051",
+      "predicate": "defined",
+      "source": "organization:bureau-of-public-roads",
+      "status": "proposed",
+      "target": "concept:comprehensive-urban-transportation-planning-process"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:052",
+      "predicate": "participated_in",
+      "source": "organization:alan-m-voorhees-and-associates",
+      "status": "proposed",
+      "target": "project:urban-mass-transit-planning-project"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:053",
+      "predicate": "part_of",
+      "source": "project:urban-mass-transit-planning-project",
+      "status": "proposed",
+      "target": "organization:us-department-of-housing-and-urban-development"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:054",
+      "predicate": "produced",
+      "source": "project:urban-mass-transit-planning-project",
+      "status": "proposed",
+      "target": "tool:hud-transit-battery"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:055",
+      "predicate": "derived_from",
+      "source": "tool:hud-transit-battery",
+      "status": "proposed",
+      "target": "tool:bpr-highway-program-battery"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:056",
+      "predicate": "part_of",
+      "source": "algorithm:transit-path-builder",
+      "status": "proposed",
+      "target": "tool:hud-transit-battery"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:057",
+      "predicate": "part_of",
+      "source": "model:hud-modal-split-model",
+      "status": "proposed",
+      "target": "tool:hud-transit-battery"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:058",
+      "predicate": "derived_from",
+      "source": "tool:urban-transportation-planning-system",
+      "status": "proposed",
+      "target": "tool:hud-transit-battery"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:059",
+      "predicate": "formulated",
+      "source": "person:robert-mitchell",
+      "status": "proposed",
+      "target": "method:integrated-land-use-transportation-alternatives-planning"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:060",
+      "predicate": "uses",
+      "source": "project:penn-jersey-transportation-study",
+      "status": "proposed",
+      "target": "method:integrated-land-use-transportation-alternatives-planning"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:061",
+      "predicate": "implemented_in",
+      "source": "model:regional-growth-model",
+      "status": "proposed",
+      "target": "project:penn-jersey-transportation-study"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:062",
+      "predicate": "defined",
+      "source": "person:vladimir-almendinger",
+      "status": "proposed",
+      "target": "model:regional-growth-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:063",
+      "predicate": "formulated",
+      "source": "person:britton-harris",
+      "status": "proposed",
+      "target": "model:regional-growth-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:064",
+      "predicate": "uses",
+      "source": "model:regional-growth-model",
+      "status": "proposed",
+      "target": "concept:transportation-accessibility"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:065",
+      "predicate": "formulated",
+      "source": "person:john-herbert",
+      "status": "proposed",
+      "target": "model:herbert-stevens-residential-location-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:066",
+      "predicate": "formulated",
+      "source": "person:benjamin-stevens",
+      "status": "proposed",
+      "target": "model:herbert-stevens-residential-location-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:067",
+      "predicate": "uses",
+      "source": "model:herbert-stevens-residential-location-model",
+      "status": "proposed",
+      "target": "method:linear-programming"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:068",
+      "predicate": "operationalizes",
+      "source": "model:herbert-stevens-residential-location-model",
+      "status": "proposed",
+      "target": "concept:spatial-market-clearing"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:069",
+      "predicate": "replaced",
+      "source": "model:activities-allocation-model",
+      "status": "proposed",
+      "target": "model:regional-growth-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:070",
+      "predicate": "formulated",
+      "source": "organization:traffic-research-corporation",
+      "status": "proposed",
+      "target": "model:empiric"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:071",
+      "predicate": "implemented_in",
+      "source": "model:empiric",
+      "status": "proposed",
+      "target": "project:boston-regional-planning-project"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:072",
+      "predicate": "uses",
+      "source": "model:empiric",
+      "status": "proposed",
+      "target": "method:simultaneous-regression-equations"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:073",
+      "predicate": "uses",
+      "source": "model:empiric",
+      "status": "proposed",
+      "target": "concept:transportation-accessibility"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:074",
+      "predicate": "formulated",
+      "source": "person:ira-lowry",
+      "status": "proposed",
+      "target": "model:lowry-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:075",
+      "predicate": "uses",
+      "source": "model:lowry-model",
+      "status": "proposed",
+      "target": "model:gravity-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:076",
+      "predicate": "uses",
+      "source": "model:lowry-model",
+      "status": "proposed",
+      "target": "method:iterative-solution-scheme"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:077",
+      "predicate": "authored",
+      "source": "person:douglass-lee",
+      "status": "proposed",
+      "target": "work:requiem-for-large-scale-models"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:078",
+      "predicate": "critiques",
+      "source": "work:requiem-for-large-scale-models",
+      "status": "proposed",
+      "target": "concept:large-scale-urban-model"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:079",
+      "predicate": "uses",
+      "source": "model:cats-congested-travel-time-function",
+      "status": "proposed",
+      "target": "metric:design-capacity"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:080",
+      "predicate": "uses",
+      "source": "model:bpr-volume-delay-function",
+      "status": "proposed",
+      "target": "metric:practical-capacity"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:081",
+      "predicate": "defined",
+      "source": "work:highway-capacity-manual-1950",
+      "status": "proposed",
+      "target": "metric:practical-capacity"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:082",
+      "predicate": "occurred_at",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "place:detroit-metropolitan-area"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:083",
+      "predicate": "uses",
+      "source": "project:chicago-area-transportation-study",
+      "status": "proposed",
+      "target": "method:capacity-restraint"
+    },
+    {
+      "evidence_count": 1,
+      "id": "claim:boyce-williams-2015-ch2:084",
+      "predicate": "marked_turning_point",
+      "source": "project:detroit-metropolitan-area-traffic-study",
+      "status": "proposed",
+      "target": "concept:urban-transportation-study"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "algorithm:label-correcting-algorithm",
+      "label": "Label-Correcting Algorithm",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Label-Correcting Algorithm"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "shortest-path"
+      ],
+      "type": "Algorithm"
+    },
+    {
+      "id": "algorithm:transit-path-builder",
+      "label": "Transit Path Builder",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Transit Path Builder"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "public-transport-assignment"
+      ],
+      "type": "Algorithm"
+    },
+    {
+      "id": "concept:comprehensive-urban-transportation-planning-process",
+      "label": "Comprehensive Urban Transportation Planning Process",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Comprehensive Urban Transportation Planning Process"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-transportation-planning"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:feedback-in-travel-forecasting",
+      "label": "Feedback in Travel Forecasting",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "feed back"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Feedback in Travel Forecasting"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-travel-forecasting"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:friction-factor",
+      "label": "Friction Factor",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Travel-Time Factor"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Friction Factor"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:highway-user-taxes",
+      "label": "Highway User Taxes",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Highway User Taxes"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transport-finance"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:interzonal-modal-travel-time-and-cost",
+      "label": "Interzonal Modal Travel Time and Cost",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Interzonal Modal Travel Time and Cost"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "mode-choice"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:k-factor",
+      "label": "K-Factor",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "K-Factor"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:large-scale-urban-model",
+      "label": "Large-Scale Urban Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Large-Scale Urban Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:shortest-route-problem",
+      "label": "Shortest Route Problem",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Shortest Route Problem"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "network-optimization"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:spatial-market-clearing",
+      "label": "Spatial Market Clearing",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Spatial Market Clearing"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:transportation-accessibility",
+      "label": "Transportation Accessibility",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Transportation Accessibility"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-transportation"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:travel-friction",
+      "label": "Travel Friction",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "friction of travel"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Travel Friction"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment",
+        "trip-distribution"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:urban-transportation-study",
+      "label": "Urban Transportation Study",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Urban Transportation Study"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-transportation-planning"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "concept:zonal-characteristic",
+      "label": "Zonal Characteristic",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Zonal Characteristic"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-generation"
+      ],
+      "type": "Concept"
+    },
+    {
+      "id": "method:all-or-nothing-assignment",
+      "label": "All-or-Nothing Assignment",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "All-or-Nothing Assignment"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:areawide-traffic-assignment",
+      "label": "Areawide Traffic Assignment",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "areawide traffic assignment"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Areawide Traffic Assignment"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:capacity-restraint",
+      "label": "Capacity Restraint Method",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Capacity Restraint Method"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:desire-line-density-analysis",
+      "label": "Desire Line Density Analysis",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Desire Line Density Analysis"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "travel-pattern-analysis"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:fratar-growth-factor-method",
+      "label": "Fratar Growth Factor Method",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "method of Fratar"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Fratar Growth Factor Method"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:home-interview-travel-survey",
+      "label": "Home Interview Travel Survey",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "home interview study"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Home Interview Travel Survey"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "travel-survey"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:integrated-land-use-transportation-alternatives-planning",
+      "label": "Integrated Land Use–Transportation Alternatives Planning",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Integrated Land Use–Transportation Alternatives Planning"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-transportation"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:integrated-trip-distribution-and-traffic-assignment",
+      "label": "Integrated Trip Distribution and Traffic Assignment Procedure",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Integrated Trip Distribution and Traffic Assignment Procedure"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment",
+        "trip-distribution"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:iterative-capacity-restraint-assignment",
+      "label": "Iterative Capacity Restraint Assignment",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Iterative Capacity Restraint Assignment"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:iterative-solution-scheme",
+      "label": "Iterative Solution Scheme",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Iterative Solution Scheme"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:linear-programming",
+      "label": "Linear Programming",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Linear Programming"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "operations-research"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:modified-growth-factor-method",
+      "label": "Modified Growth Factor Method",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Modified Growth Factor Method"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:origin-destination-study",
+      "label": "Origin–Destination Study",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Origin–Destination Study"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "origin-destination",
+        "travel-survey"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:sequential-urban-travel-forecasting-procedure",
+      "label": "Sequential Urban Travel Forecasting Procedure",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "multistep travel forecasting procedures"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Sequential Urban Travel Forecasting Procedure"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-travel-forecasting"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:simultaneous-regression-equations",
+      "label": "Simultaneous Regression Equations",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Simultaneous Regression Equations"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:stoch",
+      "label": "STOCH",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "STOCH"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:tree-by-tree-incremental-assignment",
+      "label": "Tree-by-Tree Incremental Assignment",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Tree-by-Tree Incremental Assignment"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:trip-distribution",
+      "label": "Trip Distribution",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Trip Distribution"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:trip-generation-analysis",
+      "label": "Trip Generation Analysis",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Trip Generation Analysis"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-generation"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "method:trip-table-balancing",
+      "label": "Trip Table Balancing",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "balancing the trip table"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Trip Table Balancing"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transportation-computing",
+        "trip-distribution"
+      ],
+      "type": "Method"
+    },
+    {
+      "id": "metric:design-capacity",
+      "label": "Design Capacity",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Design Capacity"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "highway-capacity"
+      ],
+      "type": "Metric"
+    },
+    {
+      "id": "metric:practical-capacity",
+      "label": "Practical Capacity",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Practical Capacity"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "highway-capacity"
+      ],
+      "type": "Metric"
+    },
+    {
+      "id": "model:activities-allocation-model",
+      "label": "Activities Allocation Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "AAM"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Activities Allocation Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:bpr-gravity-model",
+      "label": "BPR Gravity Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "BPR Gravity Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:bpr-volume-delay-function",
+      "label": "BPR Volume–Delay Function",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "BPR Link Performance Function"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "BPR Volume–Delay Function"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:cats-congested-travel-time-function",
+      "label": "CATS Congested Travel-Time Function",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "CATS Congested Travel-Time Function"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:dmats-predictive-zonal-interchange-formula",
+      "label": "DMATS Predictive Zonal Interchange Formula",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "predictive formula"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "DMATS Predictive Zonal Interchange Formula"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:empiric",
+      "label": "EMPIRIC",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "EMPIRIC"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:gravity-model",
+      "label": "Gravity Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Spatial Interaction Model"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Gravity Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:helvig-gravity-model-of-external-truck-movements",
+      "label": "Helvig Gravity Model of External Truck Movements",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Helvig Gravity Model of External Truck Movements"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "freight-modeling"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:herbert-stevens-residential-location-model",
+      "label": "Herbert–Stevens Residential Location Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Herbert–Stevens Residential Location Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "residential-location"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:hill-truck-interactance-model",
+      "label": "Hill Truck Interactance Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Hill Truck Interactance Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "freight-modeling"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:hud-modal-split-model",
+      "label": "HUD Modal Split Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "HUD Modal Split Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "mode-choice"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:intervening-opportunities-model",
+      "label": "Intervening Opportunities Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Intervening Opportunities Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "trip-distribution"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:lowry-model",
+      "label": "Lowry Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Model of Metropolis"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Lowry Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:regional-growth-model",
+      "label": "Regional Growth Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "RGM"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Regional Growth Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:trip-end-modal-split-model",
+      "label": "Trip-End Modal Split Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Trip-End Modal Split Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "mode-choice"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "model:trip-interchange-modal-split-model",
+      "label": "Trip-Interchange Modal Split Model",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Trip-Interchange Modal Split Model"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "mode-choice"
+      ],
+      "type": "Model"
+    },
+    {
+      "id": "organization:alan-m-voorhees-and-associates",
+      "label": "Alan M. Voorhees and Associates",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Alan M. Voorhees and Associates"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "public-transport-planning"
+      ],
+      "type": "Organization"
+    },
+    {
+      "id": "organization:armour-research-foundation",
+      "label": "Armour Research Foundation",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Armour Research Foundation"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transportation-computing"
+      ],
+      "type": "Organization"
+    },
+    {
+      "id": "organization:bureau-of-public-roads",
+      "label": "Bureau of Public Roads",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "BPR"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Bureau of Public Roads"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-travel-forecasting"
+      ],
+      "type": "Organization"
+    },
+    {
+      "id": "organization:traffic-research-corporation",
+      "label": "Traffic Research Corporation",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Traffic Research Corporation"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Organization"
+    },
+    {
+      "id": "organization:us-department-of-housing-and-urban-development",
+      "label": "U.S. Department of Housing and Urban Development",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "HUD"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "U.S. Department of Housing and Urban Development"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "public-transport"
+      ],
+      "type": "Organization"
+    },
+    {
+      "id": "person:benjamin-stevens",
+      "label": "Benjamin Stevens",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Benjamin Stevens"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "residential-location"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:britton-harris",
+      "label": "Britton Harris",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Britton Harris"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:douglass-lee",
+      "label": "Douglass Lee",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Douglass Lee"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:edward-moore",
+      "label": "Edward Moore",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Edward Moore"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "network-optimization"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:ira-lowry",
+      "label": "Ira Lowry",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Jack Lowry"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Ira Lowry"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:j-douglas-carroll-jr",
+      "label": "J. Douglas Carroll, Jr.",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Douglas Carroll"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "J. Douglas Carroll, Jr."
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-travel-forecasting"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:john-herbert",
+      "label": "John Herbert",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "John Herbert"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "residential-location"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:morton-schneider",
+      "label": "Morton Schneider",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Morton Schneider"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment",
+        "trip-distribution"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:robert-dial",
+      "label": "Robert Dial",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Robert Dial"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "traffic-assignment"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:robert-mitchell",
+      "label": "Robert Mitchell",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Robert Mitchell"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-transportation"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:roger-creighton",
+      "label": "Roger Creighton",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Roger Creighton"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-transportation-planning"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "person:vladimir-almendinger",
+      "label": "Vladimir Almendinger",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Vladimir Almendinger"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Person"
+    },
+    {
+      "id": "place:detroit-metropolitan-area",
+      "label": "Detroit Metropolitan Area",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Detroit, Michigan area"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Detroit Metropolitan Area"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-transportation"
+      ],
+      "type": "Place"
+    },
+    {
+      "id": "policy:federal-aid-highway-act-of-1944",
+      "label": "Federal-Aid Highway Act of 1944",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Federal-Aid Highway Act of 1944"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "highway-policy"
+      ],
+      "type": "Policy"
+    },
+    {
+      "id": "policy:federal-aid-highway-act-of-1956",
+      "label": "Federal-Aid Highway Act of 1956",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Federal-Aid Highway Act of 1956"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "highway-policy"
+      ],
+      "type": "Policy"
+    },
+    {
+      "id": "policy:federal-aid-highway-act-of-1962",
+      "label": "Federal-Aid Highway Act of 1962",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Federal-Aid Highway Act of 1962"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transport-policy"
+      ],
+      "type": "Policy"
+    },
+    {
+      "id": "project:1956-chicago-origin-destination-survey",
+      "label": "1956 Chicago Origin–Destination Survey",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "1956 Chicago Origin–Destination Survey"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "travel-survey"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "project:1980-detroit-expressway-plan",
+      "label": "1980 Detroit Expressway Plan",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "1980 expressway plan"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "1980 Detroit Expressway Plan"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "expressway-planning"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "project:boston-regional-planning-project",
+      "label": "Boston Regional Planning Project",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Boston Regional Planning Project"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-transportation"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "project:chicago-area-transportation-study",
+      "label": "Chicago Area Transportation Study",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "CATS"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Chicago Area Transportation Study"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-travel-forecasting"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "project:detroit-metropolitan-area-traffic-study",
+      "label": "Detroit Metropolitan Area Traffic Study",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "DMATS"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Detroit Metropolitan Area Traffic Study"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "highway-planning",
+        "urban-travel-forecasting"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "project:national-system-of-interstate-and-defense-highways",
+      "label": "National System of Interstate and Defense Highways",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "National System of Interstate and Defense Highways"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "highway-planning"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "project:penn-jersey-transportation-study",
+      "label": "Penn Jersey Transportation Study",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "PJTS"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Penn Jersey Transportation Study"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-transportation"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "project:urban-mass-transit-planning-project",
+      "label": "Urban Mass Transit Planning Project",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Urban Mass Transit Planning Project"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "public-transport-planning"
+      ],
+      "type": "Project"
+    },
+    {
+      "id": "technology:ibm-704",
+      "label": "IBM 704",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "IBM 704"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transportation-computing"
+      ],
+      "type": "Technology"
+    },
+    {
+      "id": "tool:bpr-highway-program-battery",
+      "label": "BPR Highway Program Battery",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "alias",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "BPR Program Battery"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "BPR Highway Program Battery"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transportation-software"
+      ],
+      "type": "Tool"
+    },
+    {
+      "id": "tool:cartographatron",
+      "label": "Cartographatron",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Cartographatron"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "travel-visualization"
+      ],
+      "type": "Tool"
+    },
+    {
+      "id": "tool:hud-transit-battery",
+      "label": "HUD Transit Battery",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "HUD Transit Battery"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transportation-software"
+      ],
+      "type": "Tool"
+    },
+    {
+      "id": "tool:urban-transportation-planning-system",
+      "label": "Urban Transportation Planning System",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "abbreviation",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "UTPS"
+        },
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Urban Transportation Planning System"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "transportation-software"
+      ],
+      "type": "Tool"
+    },
+    {
+      "id": "work:forecasting-urban-travel-past-present-and-future",
+      "label": "Forecasting Urban Travel: Past, Present and Future",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Forecasting Urban Travel: Past, Present and Future"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "urban-travel-forecasting"
+      ],
+      "type": "Work"
+    },
+    {
+      "id": "work:highway-capacity-manual-1950",
+      "label": "1950 Highway Capacity Manual",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "1950 Highway Capacity Manual"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "highway-capacity"
+      ],
+      "type": "Work"
+    },
+    {
+      "id": "work:requiem-for-large-scale-models",
+      "label": "Requiem for Large-Scale Models",
+      "names": [
+        {
+          "language": "en",
+          "locale": null,
+          "name_type": "preferred",
+          "source_ids": [
+            "source:boyce-williams-2015-forecasting-urban-travel"
+          ],
+          "text": "Requiem for Large-Scale Models"
+        }
+      ],
+      "status": "proposed",
+      "topics": [
+        "land-use-modeling"
+      ],
+      "type": "Work"
+    }
+  ],
   "schema_version": "traffic-wiki-extraction-0.1.0"
 }
