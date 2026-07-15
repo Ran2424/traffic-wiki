@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Traffic Wiki"
+  short_description: "Extract sourced traffic knowledge into a local wiki"
+  default_prompt: "Use $build-traffic-wiki to ingest the provided transport text into the local Traffic Wiki."

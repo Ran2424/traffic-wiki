@@ -1,0 +1,12 @@
+.env
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Private or transient Traffic Wiki inputs
+traffic-wiki/raw/
+traffic-wiki/staging/
+traffic-wiki/runs/
+
+# Atomic-write leftovers
+*.tmp
