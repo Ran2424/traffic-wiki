@@ -6,6 +6,12 @@
 > 状态：Draft Baseline  
 > 最后更新：2026-07-15
 
+## 项目框架总览
+
+![Traffic Wiki：证据优先的知识提取框架](docs/images/traffic-wiki-framework.png)
+
+> 图 1：Traffic Wiki v0.0 的整体架构与方法论。资料经 Agent/LLM 生成候选实体、原子 Claim 与证据链接，再由确定性程序完成合并、校验与存储；JSONL 是当前抽取层的权威数据，Wiki 页面与 Graph JSON 均为可重建的派生视图。
+
 ## 1. 文档目的
 
 本文档定义交通工程学科知识图谱项目的产品边界、核心概念、数据模型、证据与引用规则、知识提取流程、存储架构、人工审核机制、质量标准和分阶段实施路径。
