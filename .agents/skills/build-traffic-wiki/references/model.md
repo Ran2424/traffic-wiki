@@ -12,6 +12,7 @@
 8. Run record
 9. Controlled values
 10. Complete payload example
+11. Repair payload
 
 ## 1. Storage files
 
@@ -237,6 +238,8 @@ paragraph:12
 
 Keep quotes short and exact. Do not store a model paraphrase in `quote`.
 
+Apply the mandatory quote granularity, deepest-section locator, table, note, and multi-passage rules in [quality.md](quality.md).
+
 Use `qualifiers` for structured context:
 
 ```json
@@ -414,3 +417,23 @@ marked_turning_point
   }
 }
 ```
+
+## 11. Repair payload
+
+Use repairs only for records already merged. A repair payload may update source notes, merge duplicate entities, replace claim evidence or confidence, and delete unsupported claims:
+
+```json
+{
+  "source_updates": [{"id": "source:example", "notes": "Updated coverage note"}],
+  "entity_merges": [{"from_id": "tool:old-id", "into_id": "tool:canonical-id"}],
+  "claim_updates": [{
+    "id": "claim:example:001",
+    "evidence": [{"source_id": "source:example", "locator": "section:1.2/paragraph:3", "quote": "Exact text"}],
+    "confidence": 0.92
+  }],
+  "delete_claim_ids": ["claim:example:unsupported"],
+  "run": {}
+}
+```
+
+The repair command rewrites entity references, validates the complete store, and writes JSONL atomically. It does not permit arbitrary field replacement.

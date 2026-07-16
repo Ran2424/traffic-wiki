@@ -228,6 +228,39 @@ class Payload(BaseModel):
     run: Run
 
 
+class SourceUpdate(Record):
+    notes: str
+
+
+class EntityMerge(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    from_id: str = Field(min_length=1)
+    into_id: str = Field(min_length=1)
+
+
+class ClaimUpdate(Record):
+    evidence: list[Evidence] | None = None
+    confidence: float | None = Field(default=None, ge=0, le=1)
+    qualifiers: dict[str, Any] | None = None
+    assertion_mode: str | None = None
+
+    @field_validator("assertion_mode")
+    @classmethod
+    def check_assertion_mode(cls, value: str | None) -> str | None:
+        if value is not None and value not in ASSERTION_MODES:
+            raise ValueError(f"unsupported assertion_mode {value!r}")
+        return value
+
+
+class RepairPayload(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    source_updates: list[SourceUpdate]
+    entity_merges: list[EntityMerge]
+    claim_updates: list[ClaimUpdate]
+    delete_claim_ids: list[str]
+    run: Run
+
+
 ModelT = TypeVar("ModelT", bound=Record)
 
 
@@ -326,6 +359,72 @@ def validate_store(raw: dict[str, list[dict[str, Any]]]) -> dict[str, list[Recor
         if unknown_runs:
             raise ModelError(f"{claim.id}: unknown run_ids {sorted(unknown_runs)}")
     return {"sources": sources, "entities": entities, "claims": claims, "runs": runs}
+
+
+def source_file(root: Path, source: Source) -> Path | None:
+    if re.match(r"^[a-z][a-z0-9+.-]*://", source.path, re.IGNORECASE):
+        return None
+    path = Path(source.path)
+    candidate = path if path.is_absolute() else root.parent / path
+    return candidate if candidate.is_file() else None
+
+
+def numbered_heading_at(source_text: str, position: int) -> str | None:
+    heading = None
+    for match in re.finditer(r"^#{2,5}\s+(\d+(?:\.\d+)*)\b", source_text, re.MULTILINE):
+        if match.start() > position:
+            break
+        heading = match.group(1)
+    return heading
+
+
+def validate_quality(root: Path, valid: dict[str, list[Record]]) -> None:
+    name_owners: dict[tuple[str, str], str] = {}
+    for entity in valid["entities"]:
+        assert isinstance(entity, Entity)
+        for name in entity.names:
+            key = (entity.type, normalize_name(name.text))
+            owner = name_owners.get(key)
+            if owner is not None and owner != entity.id:
+                raise ModelError(
+                    f"ambiguous entity name {name.text!r} ({entity.type}): {owner}, {entity.id}"
+                )
+            name_owners[key] = entity.id
+
+    source_by_id = {item.id: item for item in valid["sources"]}
+    source_texts: dict[str, str] = {}
+    for source in valid["sources"]:
+        assert isinstance(source, Source)
+        path = source_file(root, source)
+        if path is None:
+            continue
+        if source.content_hash and sha256_file(path) != source.content_hash:
+            raise ModelError(f"{source.id}: content_hash does not match {path}")
+        source_texts[source.id] = path.read_text(encoding="utf-8")
+
+    semantic_claims: dict[str, str] = {}
+    for claim in valid["claims"]:
+        assert isinstance(claim, Claim)
+        semantic_key = claim_key(claim.model_dump(mode="json"))
+        owner = semantic_claims.get(semantic_key)
+        if owner is not None and owner != claim.id:
+            raise ModelError(f"duplicate semantic claims: {owner}, {claim.id}")
+        semantic_claims[semantic_key] = claim.id
+        for evidence in claim.evidence:
+            source_text = source_texts.get(evidence.source_id)
+            if source_text is None:
+                continue
+            positions = [match.start() for match in re.finditer(re.escape(evidence.quote), source_text)]
+            if not positions:
+                path = source_file(root, source_by_id[evidence.source_id])
+                raise ModelError(f"{claim.id}: quote is not exact source text in {path}")
+            section_match = re.search(r"(?:^|/)section:(\d+(?:\.\d+)*)", evidence.locator)
+            if section_match:
+                expected = section_match.group(1)
+                if not any(numbered_heading_at(source_text, position) == expected for position in positions):
+                    raise ModelError(
+                        f"{claim.id}: locator must use the deepest numbered section containing the quote ({expected})"
+                    )
 
 
 def raw_records(records: list[Record]) -> list[dict[str, Any]]:
@@ -458,12 +557,97 @@ def upsert_payload(root: Path, payload_path: Path) -> dict[str, Any]:
         "claims": list(claim_by_id.values()), "runs": list(run_by_id.values()),
     }
     validated = validate_store(combined)
+    validate_quality(root, validated)
     for name, records in validated.items():
         write_jsonl(data_paths(root)[name], records)
     result = {
         "status": "merged", "source_inserted": source_inserted, "entities_inserted": entity_inserted,
         "entities_merged": entity_merged, "claims_inserted": claim_inserted,
         "claims_merged": claim_merged, "run_inserted": run_inserted,
+        "totals": {name: len(records) for name, records in validated.items()},
+    }
+    print(json.dumps(result, ensure_ascii=False, sort_keys=True))
+    return result
+
+
+def repair_payload(root: Path, payload_path: Path) -> dict[str, Any]:
+    payload = RepairPayload.model_validate_json(payload_path.read_text(encoding="utf-8"))
+    valid = validate_store(load_store(root))
+    store = {name: raw_records(records) for name, records in valid.items()}
+
+    source_by_id = {item["id"]: item for item in store["sources"]}
+    for update in payload.source_updates:
+        if update.id not in source_by_id:
+            raise ModelError(f"repair: unknown source {update.id}")
+        source_by_id[update.id]["notes"] = update.notes
+
+    run = payload.run.model_dump(mode="json")
+    run_by_id = {item["id"]: item for item in store["runs"]}
+    if run["id"] in run_by_id and run_by_id[run["id"]] != run:
+        raise ModelError(f"repair: conflicting run {run['id']}")
+    run_by_id[run["id"]] = run
+
+    entity_by_id = {item["id"]: item for item in store["entities"]}
+    claim_by_id = {item["id"]: item for item in store["claims"]}
+    merged_entities = 0
+    for merge in payload.entity_merges:
+        if merge.from_id == merge.into_id:
+            raise ModelError("repair: entity merge needs different ids")
+        if merge.from_id not in entity_by_id and merge.into_id in entity_by_id:
+            continue
+        if merge.from_id not in entity_by_id or merge.into_id not in entity_by_id:
+            raise ModelError(f"repair: unknown entity merge {merge.from_id} -> {merge.into_id}")
+        source_entity = entity_by_id[merge.from_id]
+        target_entity = entity_by_id[merge.into_id]
+        if source_entity["type"] != target_entity["type"]:
+            raise ModelError(f"repair: entity type conflict {merge.from_id} -> {merge.into_id}")
+        incoming_names = []
+        for name in source_entity["names"]:
+            copied = dict(name)
+            if copied["name_type"] == "preferred" and copied["text"] != target_entity["canonical_name"]:
+                copied["name_type"] = "alias"
+            incoming_names.append(copied)
+        target_entity["names"] = merge_name_forms(target_entity["names"], incoming_names)
+        target_entity["topics"] = sorted(set(target_entity["topics"]) | set(source_entity["topics"]))
+        if not target_entity["summary_en"] and source_entity["summary_en"]:
+            target_entity["summary_en"] = source_entity["summary_en"]
+        del entity_by_id[merge.from_id]
+        for claim in claim_by_id.values():
+            for field in ("subject_id", "object_id", "attributed_to_id"):
+                if claim.get(field) == merge.from_id:
+                    claim[field] = merge.into_id
+        merged_entities += 1
+
+    deleted_claims = 0
+    for claim_id in payload.delete_claim_ids:
+        if claim_id not in claim_by_id:
+            continue
+        del claim_by_id[claim_id]
+        deleted_claims += 1
+
+    updated_claims = 0
+    for update in payload.claim_updates:
+        if update.id not in claim_by_id:
+            raise ModelError(f"repair: unknown claim {update.id}")
+        claim = claim_by_id[update.id]
+        changes = update.model_dump(mode="json", exclude_none=True, exclude={"id"})
+        claim.update(changes)
+        claim["run_ids"] = sorted(set(claim["run_ids"]) | {run["id"]})
+        Claim.model_validate(claim)
+        updated_claims += 1
+
+    combined = {
+        "sources": list(source_by_id.values()), "entities": list(entity_by_id.values()),
+        "claims": list(claim_by_id.values()), "runs": list(run_by_id.values()),
+    }
+    validated = validate_store(combined)
+    validate_quality(root, validated)
+    for name, records in validated.items():
+        write_jsonl(data_paths(root)[name], records)
+    result = {
+        "status": "repaired", "entities_merged": merged_entities,
+        "claims_updated": updated_claims, "claims_deleted": deleted_claims,
+        "run_inserted": int(run["id"] not in {item["id"] for item in store["runs"]}),
         "totals": {name: len(records) for name, records in validated.items()},
     }
     print(json.dumps(result, ensure_ascii=False, sort_keys=True))
@@ -480,6 +664,7 @@ def markdown_cell(value: Any) -> str:
 
 def build_views(root: Path) -> dict[str, int]:
     valid = validate_store(load_store(root))
+    validate_quality(root, valid)
     sources = {item.id: item for item in valid["sources"]}
     entities = {item.id: item for item in valid["entities"]}
     claims = [item for item in valid["claims"] if item.status not in {"rejected", "deprecated"}]
@@ -575,6 +760,7 @@ def init_wiki(root: Path) -> None:
 
 def validate_root(root: Path) -> dict[str, int]:
     valid = validate_store(load_store(root))
+    validate_quality(root, valid)
     counts = {name: len(records) for name, records in valid.items()}
     print(json.dumps({"status": "valid", **counts}, ensure_ascii=False, sort_keys=True))
     return counts
@@ -597,6 +783,9 @@ def main() -> int:
     upsert = commands.add_parser("upsert")
     upsert.add_argument("--root", type=Path, required=True)
     upsert.add_argument("--payload", type=Path, required=True)
+    repair = commands.add_parser("repair")
+    repair.add_argument("--root", type=Path, required=True)
+    repair.add_argument("--payload", type=Path, required=True)
     hash_command = commands.add_parser("hash")
     hash_command.add_argument("--file", type=Path, required=True)
     args = parser.parse_args()
@@ -609,6 +798,8 @@ def main() -> int:
             build_views(args.root)
         elif args.command == "upsert":
             upsert_payload(args.root, args.payload)
+        elif args.command == "repair":
+            repair_payload(args.root, args.payload)
         else:
             print(sha256_file(args.file))
         return 0

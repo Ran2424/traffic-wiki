@@ -20,6 +20,7 @@ The travel forecasting stage that allocates trips between origin and destination
 
 - `in` **Fratar Growth Factor Method** — `operationalizes` → **Trip Distribution** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.3/paragraph:1]
 - `in` **BPR Gravity Model** — `operationalizes` → **Trip Distribution** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.3/paragraph:2]
+- `out` **Trip Distribution** — `uses` → **Gravity Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.7.1/table:3.1/row:gravity-model]
 
 ## Sources
 

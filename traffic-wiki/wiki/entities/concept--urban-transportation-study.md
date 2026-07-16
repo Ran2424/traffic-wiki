@@ -19,6 +19,7 @@ An integrated metropolitan study combining travel surveys, forecasts, assignment
 ## Claims
 
 - `in` **Detroit Metropolitan Area Traffic Study** — `marked_turning_point` → **Urban Transportation Study** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.3.2/paragraph:18]
+- `in` **Traffic in Towns** — `influenced` → **Urban Transportation Study** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.2.1/paragraph:2]
 
 ## Sources
 

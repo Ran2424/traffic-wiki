@@ -20,6 +20,9 @@ Accessibility by car and public transport used in urban location models.
 
 - `in` **Regional Growth Model** — `uses` → **Transportation Accessibility** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.7.2/paragraph:20]
 - `in` **EMPIRIC** — `uses` → **Transportation Accessibility** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.7.3/paragraph:2]
+- `in` **Multinomial Logit Share Model** — `operationalizes` → **Transportation Accessibility** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.8.3/paragraph:4]
+- `in` **Hotelling Consumer Surplus** — `uses` → **Transportation Accessibility** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.8.3/paragraph:7]
+- `in` **Jean-Gerard Koenig** — `formulated` → **Transportation Accessibility** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.5.3/paragraph:9]
 
 ## Sources
 

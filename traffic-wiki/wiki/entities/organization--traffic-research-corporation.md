@@ -19,6 +19,7 @@ Developer of the EMPIRIC model.
 ## Claims
 
 - `out` **Traffic Research Corporation** — `formulated` → **EMPIRIC** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.7.3/paragraph:2]
+- `out` **Traffic Research Corporation** — `formulated` → **Trip-Interchange Modal Split Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.2.3.1/paragraph:6]
 
 ## Sources
 

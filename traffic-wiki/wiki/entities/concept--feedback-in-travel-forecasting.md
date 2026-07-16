@@ -20,6 +20,7 @@ The return of results from later forecasting stages to revise earlier assumption
 ## Claims
 
 - `in` **Sequential Urban Travel Forecasting Procedure** — `uses` → **Feedback in Travel Forecasting** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.3.4/paragraph:9]
+- `in` **SELNEC Transportation Study** — `uses` → **Feedback in Travel Forecasting** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.7.2/paragraph:5]
 
 ## Sources
 

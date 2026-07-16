@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Traffic Wiki · 实时图谱</title>
+  <style>
+    :root{--ink:#172126;--muted:#66747b;--paper:#f3f0e8;--panel:#fffdf8;--line:#d8d3c7;--accent:#d45c36;--navy:#224e66;--ok:#287c78;--shadow:0 12px 35px rgba(29,42,47,.09)}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:14px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}button,input,select{font:inherit}button{cursor:pointer}.wrap{max-width:1480px;margin:auto;padding:28px}
+    header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:18px}.eyebrow{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}h1{font:700 clamp(28px,4vw,48px)/1.06 Georgia,serif;margin:5px 0 8px}.sub{margin:0;color:var(--muted)}
+    .stats{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.stat{background:#e8e2d6;border-radius:999px;padding:7px 12px;font-weight:700}.live{display:flex;align-items:center;gap:7px}.live i{width:8px;height:8px;border-radius:50%;background:var(--ok)}.live.error i{background:var(--accent)}
+    .toolbar,.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}.toolbar{display:flex;gap:9px;align-items:center;padding:10px;margin-bottom:14px}.toolbar input{min-width:190px;flex:1}.toolbar input,.toolbar select{border:1px solid var(--line);background:#fff;padding:9px 11px;border-radius:10px;color:var(--ink)}
+    .tabs{display:flex;gap:5px}.tab,.refresh{border:0;background:transparent;padding:9px 13px;border-radius:9px;color:var(--muted);font-weight:750}.tab[aria-selected="true"]{background:var(--navy);color:#fff}.refresh{border:1px solid var(--line);background:#fff}.view{display:none}.view.active{display:block}
+    .notice{display:none;background:#fff3ee;border:1px solid #efbda9;color:#77351e;border-radius:12px;padding:12px 15px;margin-bottom:14px}.notice.show{display:block}.graph-grid{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:14px}.canvas-card{position:relative;min-height:680px;overflow:hidden}.canvas-card canvas{display:block;width:100%;height:680px}.hint{position:absolute;left:16px;bottom:14px;color:var(--muted);background:rgba(255,253,248,.92);padding:5px 9px;border-radius:8px}
+    .detail{padding:20px;min-height:680px;overflow:auto}.detail h2{font:700 25px/1.18 Georgia,serif;margin:5px 0 8px}.detail p{color:var(--muted)}.pill{display:inline-flex;padding:3px 8px;border-radius:999px;background:#ece7dc;color:var(--navy);font-size:12px;font-weight:750}.rel{border-top:1px solid var(--line);padding:11px 0}.rel button{border:0;background:transparent;color:var(--navy);padding:0;text-align:left;font-weight:750}.predicate{color:var(--accent);font-size:12px;font-weight:800;margin:3px 0}.evidence{margin-top:7px;padding:8px 10px;border-left:2px solid #d5cab8;color:var(--muted);font-size:12px}.locator{font-family:ui-monospace,monospace;font-size:11px;color:#7b6956}.empty{color:var(--muted);padding:34px;text-align:center}.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.key{display:flex;align-items:center;gap:5px;color:var(--muted);font-size:12px}.dot{width:9px;height:9px;border-radius:50%}
+    .timeline{padding:20px}.years{display:flex;gap:7px;overflow:auto;padding-bottom:16px}.year{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;white-space:nowrap}.year.active{background:var(--accent);border-color:var(--accent);color:#fff}.events{position:relative;margin-left:88px;border-left:2px solid #cbc4b6;padding:1px 0 1px 28px}.event{position:relative;background:#fff;border:1px solid var(--line);border-radius:13px;padding:14px 16px;margin:0 0 12px}.event:before{content:"";position:absolute;width:11px;height:11px;border-radius:50%;background:var(--accent);left:-35px;top:19px;box-shadow:0 0 0 5px var(--paper)}.event .date{position:absolute;right:calc(100% + 46px);top:13px;width:72px;text-align:right;font:700 17px Georgia,serif}.event h3{margin:0 0 5px;font-size:15px}.event q{display:block;color:var(--muted);margin-top:7px;font-size:13px}
+    .directory{padding:18px}.directory-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.directory-head h2{font:700 24px Georgia,serif;margin:0}.entity-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.entity-card{border:1px solid var(--line);background:#fff;border-radius:12px;padding:13px;text-align:left}.entity-card:hover{border-color:#9f927e}.entity-card strong{display:block;margin:5px 0}.entity-card span:last-child{display:block;color:var(--muted);font-size:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    @media(max-width:980px){.wrap{padding:18px}header{align-items:flex-start;flex-direction:column}.stats{justify-content:flex-start}.toolbar{align-items:stretch;flex-wrap:wrap}.tabs{width:100%}.tab{flex:1}.graph-grid{grid-template-columns:1fr}.canvas-card,.detail{min-height:auto}.canvas-card canvas{height:520px}.entity-list{grid-template-columns:repeat(2,minmax(0,1fr))}.events{margin-left:54px}.event .date{position:static;width:auto;text-align:left;margin-bottom:5px}}
+    @media(max-width:620px){.entity-list{grid-template-columns:1fr}.toolbar input,.toolbar select,.refresh{width:100%}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div><div class="eyebrow">Traffic Wiki / Live local data</div><h1>交通知识图谱</h1><p class="sub">直接读取本地 JSONL；数据更新后页面会自动刷新。</p></div>
+      <div class="stats" aria-label="图谱统计"><span class="stat" id="entityStat">— 个实体</span><span class="stat" id="claimStat">— 条断言</span><span class="stat" id="sourceStat">— 个来源</span><span class="stat live" id="liveStat"><i></i><span>正在读取…</span></span></div>
+    </header>
+    <div id="notice" class="notice" role="alert"></div>
+    <section class="toolbar" aria-label="查看控制">
+      <div class="tabs" role="tablist"><button class="tab" role="tab" aria-selected="true" data-view="graph">关系图</button><button class="tab" role="tab" aria-selected="false" data-view="timeline">时间线</button><button class="tab" role="tab" aria-selected="false" data-view="directory">实体目录</button></div>
+      <input id="search" type="search" placeholder="搜索人物、模型、方法或项目…" aria-label="搜索实体">
+      <select id="chapterFilter" aria-label="按章节筛选"><option value="">全部章节</option></select>
+      <select id="typeFilter" aria-label="按实体类型筛选"><option value="">全部类型</option></select>
+      <button id="refresh" class="refresh" type="button">立即刷新</button>
+    </section>
+
+    <section id="graphView" class="view active" aria-label="关系图">
+      <div class="graph-grid">
+        <div class="card canvas-card"><canvas id="graph" aria-label="实体关系网络"></canvas><div class="hint" id="graphHint">点击节点查看关系</div></div>
+        <aside id="detail" class="card detail"><div class="empty">数据载入后，点击节点查看实体说明、关系与原文证据。</div></aside>
+      </div><div id="legend" class="legend" aria-label="实体类型图例"></div>
+    </section>
+    <section id="timelineView" class="view card timeline" aria-label="时间线"><div id="years" class="years"></div><div id="events" class="events"><div class="empty">正在读取时间数据…</div></div></section>
+    <section id="directoryView" class="view card directory" aria-label="实体目录"><div class="directory-head"><h2>实体目录</h2><span id="directoryCount" class="pill">—</span></div><div id="entityList" class="entity-list"></div></section>
+  </main>
+  <script>
+    let nodes=[],claims=[],sources=[],runs=[],byId=new Map(),types=[],colors={},visible=[],visibleClaims=[],positions=[],selected=null,activeTime='all',lastPayload='';
+    const typeZh={Algorithm:'算法',Concept:'概念',Event:'事件',Method:'方法',Metric:'指标',Model:'模型',Organization:'机构',Person:'人物',Place:'地点',Policy:'政策',Project:'项目',Technology:'技术',Tool:'工具',Work:'著作'};
+    const predZh={authored:'著作',affiliated_with:'隶属',participated_in:'参与',formulated:'提出',uses:'使用',extends:'扩展',generalizes:'推广',derived_from:'源自',contrasts_with:'对比',operationalizes:'实现',adopted_by:'被采用',implemented_in:'应用于',codified_in:'写入',applied_to:'用于',produced:'产出',part_of:'属于',preceded:'早于',followed:'晚于',enabled_by:'由…促成',influenced:'影响',occurred_at:'发生于',replaced:'取代',defined:'定义',first_proposed:'首次提出',marked_turning_point:'标志转折',critiques:'批评'};
+    const palette=['#d45c36','#287c78','#315f7d','#8d6c45','#79578b','#48744a','#b47a24','#555f68','#a34d64','#657a2d','#3c769c','#856752','#7d705c'];
+    const canvas=document.getElementById('graph'),ctx=canvas.getContext('2d'),search=document.getElementById('search'),typeFilter=document.getElementById('typeFilter'),chapterFilter=document.getElementById('chapterFilter');
+    const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const parseJSONL=text=>text.split(/\r?\n/).filter(Boolean).map(line=>JSON.parse(line));
+    async function fetchText(path){const r=await fetch(`${path}?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(`${path}: HTTP ${r.status}`);return r.text()}
+    async function loadData(manual=false){
+      const live=document.getElementById('liveStat'),notice=document.getElementById('notice');live.classList.remove('error');live.querySelector('span').textContent='正在读取…';
+      try{
+        const texts=await Promise.all(['data/entities.jsonl','data/claims.jsonl','data/sources.jsonl','data/runs.jsonl'].map(fetchText));const signature=texts.join('\n');
+        if(signature!==lastPayload){[nodes,claims,sources,runs]=texts.map(parseJSONL);lastPayload=signature;hydrate();}
+        live.querySelector('span').textContent=`已同步 ${new Date().toLocaleTimeString('zh-CN',{hour12:false})}`;notice.classList.remove('show');
+      }catch(error){live.classList.add('error');live.querySelector('span').textContent='读取失败';notice.classList.add('show');notice.innerHTML=location.protocol==='file:'?'浏览器不允许网页直接读取本地数据。请通过项目提供的本地查看服务打开本页，而不是双击 HTML。':`无法读取本地数据：${esc(error.message)}`;}
+    }
+    function claimChapter(c){for(const e of c.evidence||[]){const m=e.locator.match(/chapter:(\d+)/);if(m)return m[1]}return ''}
+    function hydrate(){
+      byId=new Map(nodes.map(n=>[n.id,n]));types=[...new Set(nodes.map(n=>n.type))].sort();colors=Object.fromEntries(types.map((t,i)=>[t,palette[i%palette.length]]));
+      const selectedType=typeFilter.value;typeFilter.innerHTML='<option value="">全部类型</option>';types.forEach(t=>typeFilter.add(new Option(`${typeZh[t]||t} · ${nodes.filter(n=>n.type===t).length}`,t)));typeFilter.value=types.includes(selectedType)?selectedType:'';
+      const chapters=[...new Set(claims.map(claimChapter).filter(Boolean))].sort((a,b)=>Number(a)-Number(b)),selectedChapter=chapterFilter.value;chapterFilter.innerHTML='<option value="">全部章节</option>';chapters.forEach(c=>chapterFilter.add(new Option(`第 ${c} 章`,c)));chapterFilter.value=chapters.includes(selectedChapter)?selectedChapter:'';
+      document.getElementById('entityStat').textContent=`${nodes.length} 个实体`;document.getElementById('claimStat').textContent=`${claims.length} 条断言`;document.getElementById('sourceStat').textContent=`${sources.length} 个来源`;
+      document.getElementById('legend').innerHTML=types.map(t=>`<span class="key"><i class="dot" style="background:${colors[t]}"></i>${typeZh[t]||t}</span>`).join('');renderAll();
+    }
+    function scopedClaims(){return claims.filter(c=>!chapterFilter.value||claimChapter(c)===chapterFilter.value)}
+    function filtered(){
+      const q=search.value.trim().toLowerCase(),type=typeFilter.value,baseClaims=scopedClaims(),activeIds=new Set(baseClaims.flatMap(c=>[c.subject_id,c.object_id]).filter(Boolean));let matched=nodes.filter(n=>(!chapterFilter.value||activeIds.has(n.id))&&(!type||n.type===type)&&(!q||`${n.canonical_name} ${n.summary_en} ${(n.names||[]).map(x=>x.text).join(' ')}`.toLowerCase().includes(q)));
+      if(!q&&!type)return matched;const ids=new Set(matched.map(n=>n.id));baseClaims.forEach(c=>{if(ids.has(c.subject_id)||ids.has(c.object_id)){ids.add(c.subject_id);if(c.object_id)ids.add(c.object_id)}});return nodes.filter(n=>ids.has(n.id)&&(!chapterFilter.value||activeIds.has(n.id)));
+    }
+    function layout(){
+      visible=filtered();const ids=new Set(visible.map(n=>n.id));visibleClaims=scopedClaims().filter(c=>c.object_id&&ids.has(c.subject_id)&&ids.has(c.object_id));const groups=visible.reduce((a,n)=>((a[n.type]??=[]).push(n),a),{}),w=canvas.clientWidth,h=canvas.clientHeight,cx=w/2,cy=h/2,ring=Math.min(w,h)*.40;positions=[];
+      Object.entries(groups).forEach(([type,list],gi)=>{const base=gi/Math.max(1,Object.keys(groups).length)*Math.PI*2-Math.PI/2;list.forEach((n,i)=>{const spread=Math.min(1.12,.12*list.length),a=base+(i-(list.length-1)/2)*(spread/Math.max(1,list.length-1)),r=ring-(i%4)*36;positions.push({n,x:cx+Math.cos(a)*r,y:cy+Math.sin(a)*r,degree:visibleClaims.filter(c=>c.subject_id===n.id||c.object_id===n.id).length})})});document.getElementById('graphHint').textContent=`显示 ${visible.length}/${nodes.length} 个实体、${visibleClaims.length} 条实体关系 · 点击节点查看详情`;draw();
+    }
+    function draw(){
+      const d=devicePixelRatio||1,w=canvas.clientWidth,h=canvas.clientHeight;if(canvas.width!==w*d||canvas.height!==h*d){canvas.width=w*d;canvas.height=h*d;ctx.setTransform(d,0,0,d,0,0)}ctx.clearRect(0,0,w,h);const pmap=new Map(positions.map(p=>[p.n.id,p]));ctx.strokeStyle='rgba(72,82,86,.14)';ctx.lineWidth=1;visibleClaims.forEach(c=>{const a=pmap.get(c.subject_id),b=pmap.get(c.object_id);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()}});positions.forEach(p=>{const active=selected===p.n.id;ctx.beginPath();ctx.arc(p.x,p.y,active?8:5,0,Math.PI*2);ctx.fillStyle=colors[p.n.type];ctx.fill();if(active){ctx.strokeStyle='#172126';ctx.lineWidth=2;ctx.stroke()}if(active||p.degree>=5||visible.length<40){ctx.font=active?'700 12px system-ui':'11px system-ui';ctx.fillStyle='#263239';ctx.fillText(p.n.canonical_name.slice(0,28),p.x+9,p.y+4)}});if(!visible.length){ctx.fillStyle='#66747b';ctx.font='15px system-ui';ctx.textAlign='center';ctx.fillText('没有匹配的实体',w/2,h/2);ctx.textAlign='start'}}
+    function relationObject(c){return c.object_id?byId.get(c.object_id):{id:'',canonical_name:String(c.literal?.value??'Literal'),type:'Literal'}}
+    function showDetail(id){
+      selected=id;draw();const n=byId.get(id),rels=scopedClaims().filter(c=>c.subject_id===id||c.object_id===id);document.getElementById('detail').innerHTML=`<span class="pill">${esc(typeZh[n.type]||n.type)}</span><h2>${esc(n.canonical_name)}</h2><p>${esc(n.summary_en)}</p><h3>相关断言 · ${rels.length}</h3>${rels.length?rels.map(c=>{const outgoing=c.subject_id===id,other=outgoing?relationObject(c):byId.get(c.subject_id),ev=c.evidence?.[0];return `<div class="rel"><div class="predicate">${outgoing?'→':'←'} ${esc(predZh[c.predicate]||c.predicate)}</div>${other.id?`<button data-id="${esc(other.id)}">${esc(other.canonical_name)}</button>`:`<strong>${esc(other.canonical_name)}</strong>`}${ev?`<div class="evidence">“${esc(ev.quote)}”<div class="locator">${esc(ev.locator)}</div></div>`:''}</div>`}).join(''):'<p>当前筛选范围内没有关系。</p>'}`;document.querySelectorAll('.rel button').forEach(b=>b.onclick=()=>showDetail(b.dataset.id));
+    }
+    function timeOf(c){
+      const t=c.qualifiers?.time,q=c.qualifiers||{};let raw=typeof t==='object'&&t?t.year??t.start_year??t.period:t;raw=raw??q.forecast_year;if(raw==null){const event=[byId.get(c.subject_id),c.object_id&&byId.get(c.object_id)].find(n=>n?.type==='Event');raw=event?.canonical_name.match(/(?:18|19|20)\d{2}/)?.[0]}if(raw==null)return null;const m=String(raw).match(/(?:18|19|20)\d{2}/);return m?{key:String(raw),label:String(raw),order:Number(m[0])}:null;
+    }
+    function renderTimeline(){
+      const events=scopedClaims().map(c=>({c,time:timeOf(c)})).filter(x=>x.time).sort((a,b)=>a.time.order-b.time.order),labels=[...new Map(events.map(x=>[x.time.key,x.time])).values()];if(activeTime!=='all'&&!labels.some(x=>x.key===activeTime))activeTime='all';document.getElementById('years').innerHTML=`<button class="year ${activeTime==='all'?'active':''}" data-time="all">全部 · ${events.length}</button>`+labels.map(x=>`<button class="year ${activeTime===x.key?'active':''}" data-time="${esc(x.key)}">${esc(x.label)}</button>`).join('');const shown=activeTime==='all'?events:events.filter(x=>x.time.key===activeTime);document.getElementById('events').innerHTML=shown.map(({c,time})=>{const a=byId.get(c.subject_id),b=relationObject(c),ev=c.evidence?.[0];return `<article class="event"><div class="date">${esc(time.label)}</div><h3>${esc(a.canonical_name)} · ${esc(predZh[c.predicate]||c.predicate)} · ${esc(b.canonical_name)}</h3><span class="pill">第 ${esc(claimChapter(c)||'?')} 章</span>${ev?`<q>${esc(ev.quote)}</q><div class="locator">${esc(ev.locator)}</div>`:''}</article>`}).join('')||'<div class="empty">当前筛选条件下没有明确时间记录。</div>';document.querySelectorAll('.year').forEach(b=>b.onclick=()=>{activeTime=b.dataset.time;renderTimeline()});
+    }
+    function renderDirectory(){const list=filtered();document.getElementById('directoryCount').textContent=`显示 ${list.length}/${nodes.length}`;document.getElementById('entityList').innerHTML=list.map(n=>`<button class="entity-card" data-id="${esc(n.id)}"><span class="pill">${esc(typeZh[n.type]||n.type)}</span><strong>${esc(n.canonical_name)}</strong><span>${esc(n.summary_en)}</span></button>`).join('')||'<div class="empty">没有匹配的实体。</div>';document.querySelectorAll('.entity-card').forEach(b=>b.onclick=()=>{document.querySelector('[data-view="graph"]').click();showDetail(b.dataset.id)})}
+    function renderAll(){layout();renderTimeline();renderDirectory()}
+    function resize(){canvas.style.height=(innerWidth<980?520:680)+'px';layout()}
+    canvas.addEventListener('click',e=>{const r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,p=positions.find(p=>Math.hypot(p.x-x,p.y-y)<14);if(p)showDetail(p.n.id)});search.oninput=renderAll;typeFilter.onchange=renderAll;chapterFilter.onchange=renderAll;document.getElementById('refresh').onclick=()=>loadData(true);addEventListener('resize',resize);
+    document.querySelectorAll('.tab').forEach(btn=>btn.onclick=()=>{document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b===btn));document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));document.getElementById(btn.dataset.view+'View').classList.add('active');if(btn.dataset.view==='graph')resize()});
+    if(location.protocol==='file:'){const n=document.getElementById('notice');n.classList.add('show');n.textContent='请通过本地查看服务打开本页，以便浏览器读取最新 JSONL 数据。'}loadData();setInterval(()=>loadData(),15000);
+  </script>
+</body>
+</html>

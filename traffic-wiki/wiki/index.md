@@ -7,42 +7,130 @@
 
 ## Concept
 
+- [Additive Income Random Utility Maximisation](entities/concept--additive-income-random-utility-maximisation.md) — Class of random utility models introduced by McFadden (1981) in which indirect utility is linear in income, allowing Marshallian and Hicksian demand to coincide and social aggregation of preferences for welfare analysis.
+- [Aggregation Problem in Disaggregate Modelling](entities/concept--aggregation-problem-in-disaggregate-modelling.md) — Problem of generating aggregate travel demand information by summing individual choice-model contributions over population, level-of-service and spatial variation.
+- [Attitudinal Survey Data](entities/concept--attitudinal-survey-data.md) — Survey information on attitudes or perceptions used in early modal choice investigations to represent attributes such as comfort, convenience or reliability.
+- [Car Ownership Saturation Rate](entities/concept--car-ownership-saturation-rate.md) — Parameter in Tanner's logistic car ownership model representing the upper limit of vehicle ownership per person approached over time.
+- [Choice Probability Generating Function](entities/concept--choice-probability-generating-function.md) — Function whose gradient gives choice probabilities consistent with random utility maximisation, used by Fosgerau et al (2013) to characterise additive RUM models.
+- [Composite Cost](entities/concept--composite-cost.md) — Average or aggregate measure over modal or route costs used by Wilson (1967, 1970) to link sequential travel forecasting stages within the entropy maximising framework.
 - [Comprehensive Urban Transportation Planning Process](entities/concept--comprehensive-urban-transportation-planning-process.md) — A planning process covering land use and future demand for public and private passenger and goods modes.
+- [Consumer Surplus](entities/concept--consumer-surplus.md) — Economic measure of user benefit, used in transportation project evaluation as a change in surplus relative to the do-nothing or reference situation.
+- [Cost Sensitivity Parameter](entities/concept--cost-sensitivity-parameter.md) — Parameter λ in entropy maximising and multinomial logit models that governs the dispersion of travel patterns and the sensitivity of demand to changes in generalised cost.
+- [Elasticity](entities/concept--elasticity.md) — Measure of responsiveness of demand or choice to changes in explanatory variables, used in the source to assess the response properties of travel forecasting models.
+- [Expected Maximum Utility](entities/concept--expected-maximum-utility.md) — Expected value of the distribution of maximum utility over a choice set, shown by McFadden (1978) to equal (up to a constant) the logarithm of the GEV generating function G.
 - [Feedback in Travel Forecasting](entities/concept--feedback-in-travel-forecasting.md) — The return of results from later forecasting stages to revise earlier assumptions and repeat the procedure.
 - [Friction Factor](entities/concept--friction-factor.md) — An empirical travel-time factor representing the effect of spatial separation on trip interchange.
+- [Generalised Cost of Travel](entities/concept--generalised-cost-of-travel.md) — Linear combination of travel attributes (typically in-vehicle time, excess time and money cost) weighted by behavioural values of time, used in UK travel forecasting and evaluation from the late 1960s.
+- [Goodness of Fit](entities/concept--goodness-of-fit.md) — Criterion for assessing how well a model reproduces observed data, described in the source as insufficient on its own for validating travel forecasting models.
+- [Gumbel Type I Extreme Value Distribution](entities/concept--gumbel-type-i-extreme-value-distribution.md) — Extreme-value distribution used in the source's derivation of the MNL model from IID random utility residuals.
 - [Highway User Taxes](entities/concept--highway-user-taxes.md) — User taxes identified as a funding source for interstate highway construction.
+- [IID Assumption](entities/concept--iid-assumption.md) — Assumption that random utility or error terms for alternatives are identically and independently distributed.
+- [Inclusive Price](entities/concept--inclusive-price.md) — Information-transfer quantity linking levels of a decision hierarchy in early discrete-choice demand models.
+- [Independence of Irrelevant Alternatives](entities/concept--independence-of-irrelevant-alternatives.md) — Choice axiom requiring odds between two alternatives to be independent of other alternatives in the choice set.
 - [Interzonal Modal Travel Time and Cost](entities/concept--interzonal-modal-travel-time-and-cost.md) — Zone-pair mode-specific travel times and costs used in modal choice.
 - [K-Factor](entities/concept--k-factor.md) — A zone-to-zone adjustment factor in the BPR gravity model.
+- [Land Use Forecasting in the UK](entities/concept--land-use-forecasting-in-uk.md) — Approach to forecasting future land-use distribution and characteristics in UK transportation studies, described by Bruton (1975) as largely ad hoc and crude compared with US practice.
 - [Large-Scale Urban Model](entities/concept--large-scale-urban-model.md) — The class of urban land use models criticized by Lee.
+- [Latent Variable](entities/concept--latent-variable.md) — Variable that cannot be measured directly but is inferred from relationships with observable variables, used in hybrid choice models to represent attitudes and perceptions.
+- [Logit Kernel](entities/concept--logit-kernel.md) — Form of the mixed multinomial logit model in which the random component has a general covariance structure, combining probit-like disturbances with independent Gumbel variation.
+- [Mixing Distribution](entities/concept--mixing-distribution.md) — Distribution of random parameters in the random parameters logit form of the mixed multinomial logit model.
+- [Mobility Choices](entities/concept--mobility-choices.md) — Ben-Akiva's group of infrequently made choices such as employment and residential location, housing type, car ownership and work mode choice.
+- [Parameter Size Anomaly](entities/concept--parameter-size-anomaly.md) — Term used by Williams and Senior (1977) for the empirical violation of the nested logit parameter inequality condition λ_D ≤ λ_M in widely adopted G/D/M/A model structures.
+- [Personal Difference Case](entities/concept--personal-difference-case.md) — Harris and Tanner case in which utility is written as a common term plus a random error independent of the representative value.
+- [Predictive Accuracy of Travel Forecasting](entities/concept--predictive-accuracy-of-travel-forecasting.md) — The correspondence between forecast and observed travel outcomes, assessed by Mackinder and Evans (1981) through ex post comparison with out-turn data for UK studies up to 1971.
+- [Red Bus-Blue Bus Problem](entities/concept--red-bus-blue-bus-problem.md) — Transportation illustration of IIA failure when one bus alternative is artificially partitioned into red and blue bus alternatives.
+- [Schedule Delay](entities/concept--schedule-delay.md) — Attribute of a scheduling choice introduced by Small (1982), measuring the deviation between actual arrival time and a preferred or official arrival time.
 - [Shortest Route Problem](entities/concept--shortest-route-problem.md) — The network problem of finding minimum-cost routes from an origin.
+- [Similar Alternatives Problem](entities/concept--similar-alternatives-problem.md) — Problem in MNL applications where alternatives are close substitutes and the IIA property yields implausible substitution patterns.
+- [Social Cost-Benefit Analysis](entities/concept--social-cost-benefit-analysis.md) — Evaluation framework used to assess whether transportation projects are worthwhile by comparing social costs and benefits, typically incorporating user benefit measures such as the Rule-of-a-Half.
+- [Spatial Interaction Model](entities/concept--spatial-interaction-model.md) — Class of models describing flows between origins and destinations, often derived from entropy maximisation or constrained optimisation and later reinterpreted within a random utility framework.
 - [Spatial Market Clearing](entities/concept--spatial-market-clearing.md) — The housing-market process emulated by the Herbert–Stevens model.
+- [Strict Utility](entities/concept--strict-utility.md) — Psychological utility concept used in Luce's axiomatic derivation of probabilistic choice models.
 - [Transportation Accessibility](entities/concept--transportation-accessibility.md) — Accessibility by car and public transport used in urban location models.
+- [Transportation System Management](entities/concept--transportation-system-management.md) — Early-1970s transportation planning emphasis contrasted with long-range highway-dominated planning in the source chapter.
 - [Travel Friction](entities/concept--travel-friction.md) — A resistance term associated with separation or route conditions between zones.
+- [Travel-Related Choices](entities/concept--travel-related-choices.md) — Ben-Akiva's group of frequent non-work trip choices such as frequency, destination, mode, time of day and route.
+- [Urban Transportation Model System](entities/concept--urban-transportation-model-system.md) — Term used by Marvin Manheim (1973) for the conventional four-stage urban travel forecasting model system, which by the early 1970s was being criticised for policy insensitivity, spatial aggregation, and limited behavioural response.
 - [Urban Transportation Study](entities/concept--urban-transportation-study.md) — An integrated metropolitan study combining travel surveys, forecasts, assignment and transportation planning.
+- [Value of Reliability](entities/concept--value-of-reliability.md) — Willingness to pay for reductions in travel time variability, expressed as a monetary value of journey time reliability.
+- [Value of Time](entities/concept--value-of-time.md) — Trade-off between travel time and money cost derived from disaggregate modal choice studies, used to weight components of generalised cost.
+- [Willingness to Pay](entities/concept--willingness-to-pay.md) — Monetary value that an individual is prepared to give up to obtain a change in an attribute, frequently derived from discrete choice models.
 - [Zonal Characteristic](entities/concept--zonal-characteristic.md) — A zonal total or average used as an explanatory variable in early trip generation models.
+
+## Event
+
+- [First Oil Shock 1973](entities/event--first-oil-shock-1973.md) — Oil crisis of late 1973 that triggered economic austerity and a shift in transportation planning priorities away from large-scale highway capital projects toward public transport, systems management and restraint measures.
+- [Williamsburg Conference 1972](entities/event--williamsburg-conference-1972.md) — 1972 conference described by Boyce and Williams as giving impetus to an individual motivation and choice approach to travel forecasting.
 
 ## Method
 
 - [All-or-Nothing Assignment](entities/method--all-or-nothing-assignment.md) — A deterministic loading method that assigns each O-D flow to a shortest route.
 - [Areawide Traffic Assignment](entities/method--areawide-traffic-assignment.md) — Traffic assignment applied across a metropolitan-area network rather than a single corridor.
+- [Burrell Stochastic Route Choice Method](entities/method--burrell-stochastic-route-choice.md) — UK stochastic route choice method for highway and public transport assignment using rectangular probability distributions of link times, developed by Burrell (1969).
 - [Capacity Restraint Method](entities/method--capacity-restraint.md) — A traffic assignment method that modifies link travel conditions to account for congestion.
+- [Clark Approximation](entities/method--clark-approximation.md) — Approximation for the distribution of the maximum of two jointly normal variables, applied by Daganzo et al (1977) to simplify multinomial probit numerical integration.
+- [Conjoint Analysis](entities/method--conjoint-analysis.md) — Marketing and psychology technique, originating in the 1960s and 1970s, in which individuals value attributes constituting alternatives; applied in transportation as a precursor to stated preference methods.
 - [Desire Line Density Analysis](entities/method--desire-line-density-analysis.md) — A method for mapping densities of straight-line trip paths across an area.
+- [Disaggregate Behavioural Approach](entities/method--disaggregate-behavioural-approach.md) — Micro-level travel-demand modelling approach based on individual or household data and behavioural choice hypotheses.
+- [Disaggregate Modal Choice Model](entities/method--disaggregate-modal-choice-model.md) — Statistical model of individual travellers' mode choice, pioneered by Stanley Warner in his 1962 Chicago study.
+- [Discriminant Analysis](entities/method--discriminant-analysis.md) — Multivariate statistical technique used by Warner and Quarmby to allocate individuals to modes in modal choice studies.
+- [Efficient Stated Preference Design](entities/method--efficient-stated-preference-design.md) — Approach to constructing stated preference experiments that seeks efficiency or optimality for estimating the parameters of non-linear discrete choice models, as an alternative to traditional orthogonal designs.
+- [Entropy Maximising Approach](entities/method--entropy-maximising-approach.md) — Statistical-mechanics-derived method introduced by Alan Wilson (1967) for deriving spatial interaction, trip distribution and modal split models as the most likely trip pattern consistent with observed constraints.
+- [Fixed Demand Evaluation](entities/method--fixed-demand-evaluation.md) — Neuberger's Method I, which evaluates user benefits by multiplying the fixed trip matrix by changes in user costs, ignoring demand responses other than route switching.
 - [Fratar Growth Factor Method](entities/method--fratar-growth-factor-method.md) — A growth-factor method for adjusting an observed trip table to forecast trip-end totals.
+- [G/D/M/A Model Structure](entities/method--gdms-model-structure.md) — Sequential four-stage travel forecasting structure in which modal split follows trip distribution, adopted in the SELNEC Transportation Study and increasingly common in UK studies after the mid-1960s.
+- [Harris–Zachary Conditions](entities/method--harris-zachary-conditions.md) — Five necessary and sufficient conditions derived by Zachary (1976) for a probabilistic choice model to be derivable from translational invariant utility functions, used by Daly and Zachary (1978) to validate the nested logit model.
+- [Hierarchical Logit Model](entities/method--hierarchical-logit-model.md) — Model structure arranging conditional MNL or logit models in a hierarchy over multiple travel choice dimensions.
 - [Home Interview Travel Survey](entities/method--home-interview-travel-survey.md) — A household interview survey recording residents, vehicles and 24-hour trips.
+- [Hotelling Consumer Surplus](entities/method--hotelling-consumer-surplus.md) — Neuberger's Method III, a generalisation of the Marshallian consumer surplus measure using the path integral of demand with respect to generalised cost, requiring integrability conditions satisfied by multinomial logit demand models.
+- [Household-Based Category Analysis](entities/method--household-based-category-analysis.md) — UK trip generation method in which zonal productions are built from household categories with stable trip rates, introduced by Wootton and Pick in the mid-1960s.
+- [Hybrid Choice Model](entities/method--hybrid-choice-model.md) — Framework that integrates discrete choice methods with latent variable models, allowing explicit modelling of latent psychological constructs, heterogeneity and latent segmentation.
 - [Integrated Land Use–Transportation Alternatives Planning](entities/method--integrated-land-use-transportation-alternatives-planning.md) — A method for generating and evaluating internally consistent land use and transportation alternatives.
 - [Integrated Trip Distribution and Traffic Assignment Procedure](entities/method--integrated-trip-distribution-and-traffic-assignment.md) — A CATS procedure coupling trip distribution with network assignment.
 - [Iterative Capacity Restraint Assignment](entities/method--iterative-capacity-restraint-assignment.md) — A sequence of all-or-nothing assignments with updated link speeds.
+- [Iterative Proportional Fitting](entities/method--iterative-proportional-fitting.md) — Method used in the SYNSAM procedure to construct and update contingency tables for household characteristics from marginal tabulations.
 - [Iterative Solution Scheme](entities/method--iterative-solution-scheme.md) — The iterative procedure used to solve interdependent Lowry Model allocations.
+- [Latent Class Model](entities/method--latent-class-model.md) — Statistical model in which categorical latent variables identify population segments with similar taste parameters, choice sets or decision mechanisms.
+- [Line-Based Public Transport Network Representation](entities/method--line-based-public-transport-network-representation.md) — Public transport network representation using fixed routes, stops, headways and interchanges, pioneered in the UK by Freeman, Fox and Wilbur Smith and Associates in the mid-1960s.
 - [Linear Programming](entities/method--linear-programming.md) — The optimization framework used to formulate the Herbert–Stevens model.
+- [Market Segmentation Aggregation](entities/method--market-segmentation-aggregation.md) — Aggregation method dividing the population into homogeneous groups and substituting average independent-variable values for each segment.
+- [Maximum Approximate Composite Marginal Likelihood](entities/method--maximum-approximate-composite-marginal-likelihood.md) — Estimation approach proposed by Bhat (2011) for multinomial probit models, reported to be more computationally efficient than simulation-based maximum simulated likelihood.
+- [Maximum Likelihood Estimation](entities/method--maximum-likelihood-estimation.md) — Estimation method used for parameters of linear-utility MNL models in early disaggregate travel demand applications.
+- [Maximum Simulated Likelihood](entities/method--maximum-simulated-likelihood.md) — Estimation approach in which simulated choice frequencies replace analytical probabilities in the likelihood function, introduced by Lerman and Manski (1981).
+- [Method of Simulated Moments](entities/method--method-of-simulated-moments.md) — Simulation-based estimator derived from the generalised method of moments, developed by McFadden (1989) and McFadden and Ruud (1994) to avoid multiple integrals in discrete choice models.
+- [Method of Successive Averages](entities/method--method-of-successive-averages.md) — Iterative traffic assignment technique in which successive link volume estimates receive equal weight, used by the SELNEC Transportation Study.
+- [Microsimulation](entities/method--microsimulation.md) — Numerical technique discussed in connection with solving individual choice models in the discrete-choice random utility framework.
+- [Model Transferability Scaling](entities/method--model-transferability-scaling.md) — Method introduced in the Dutch transferability study in which scaling factors multiply parts of the generalised cost function to transfer disaggregate choice models from one area to another.
 - [Modified Growth Factor Method](entities/method--modified-growth-factor-method.md) — The origin-and-destination factoring method used by DMATS to forecast zonal interchanges.
+- [Monte Carlo Method](entities/method--monte-carlo-method.md) — Numerical method using random numbers to solve integration problems, widely applied in microsimulation and discrete choice model estimation.
+- [Multinomial Logit Share Model](entities/method--multinomial-logit-share-model.md) — Choice model form used by Wilson (1969, 1970) to express trip distribution, modal split and route split as shares of a travel market, derivable from entropy maximisation.
+- [Naive Aggregation Method](entities/method--naive-aggregation-method.md) — Early aggregation procedure substituting mean explanatory-variable values into individual choice probabilities for a group.
+- [Nested Logit Trick](entities/method--nested-logit-trick.md) — Method proposed by Bradley and Daly (1991) for accommodating differential variance between revealed and stated preference data within a nested logit model by creating an artificial tree with SP and RP alternatives.
 - [Origin–Destination Study](entities/method--origin-destination-study.md) — A survey-based method for documenting movements between origins and destinations.
+- [Quasi-Monte Carlo Method](entities/method--quasi-monte-carlo-method.md) — Deterministic number sequence approach used for numerical integration and simulation in the estimation of mixed logit and other open-form discrete choice models.
+- [RP-SP Variance Scaling](entities/method--rp-sp-variance-scaling.md) — Method proposed by Morikawa (1989) for adjusting the variance of unobserved effects in stated preference data so that pooled revealed and stated preference discrete choice models have equal variances.
+- [Recursive Choice Model Structure](entities/method--recursive-choice-model-structure.md) — Discrete-choice model structure expressing joint choices as marginal and conditional probability models ordered in a hierarchy.
+- [Regional Network Analysis](entities/method--regional-network-analysis.md) — Computerised model application procedure developed in the San Francisco Bay Area MTC study, compatible with traditional matrix manipulation and assignment procedures, using zonal data and market segmentation.
+- [Revealed Preference Method](entities/method--revealed-preference-method.md) — Standard approach in the 1970s for estimating discrete choice random utility models from observed choices and socio-economic data, with limitations such as scarce information on infrequently chosen alternatives and multicollinearity among attributes.
+- [Rule-of-a-Half](entities/method--rule-of-a-half.md) — Ad hoc marginal approximation to the change in Marshallian consumer surplus, calculated as the change in generalised cost for each O-D pair and mode multiplied by the average number of trips in the with and without schemes; became standard practice in UK scheme evaluation.
 - [STOCH](entities/method--stoch.md) — Robert Dial's stochastic network loading method for distributing O-D flows over multiple routes.
+- [Sample Enumeration](entities/method--sample-enumeration.md) — Aggregation method applying a disaggregate model separately to sample members and expanding the sample to represent the population.
 - [Sequential Urban Travel Forecasting Procedure](entities/method--sequential-urban-travel-forecasting-procedure.md) — A staged procedure linking inventories, land-use and activity forecasts, travel estimates, network loading and plan refinement.
+- [Short-Range Generalised Policy Analysis](entities/method--short-range-generalised-policy-analysis.md) — Computerised model application procedure developed in the San Francisco Bay Area MTC study to produce information on broadly defined transportation policy options over short and medium time frames, based on random-sample forecasting.
+- [Simultaneous Choice Model Structure](entities/method--simultaneous-choice-model-structure.md) — Discrete-choice model structure treating multiple choice dimensions on the same footing, such as destination and mode combinations in an MNL model.
 - [Simultaneous Regression Equations](entities/method--simultaneous-regression-equations.md) — The equations used by EMPIRIC to allocate population and employment changes.
+- [Stated Choice Method](entities/method--stated-choice-method.md) — Stated preference approach in which individuals choose between hypothetical combinations of attributes, allowing direct estimation of discrete choice models and prediction of market shares.
+- [Stated Preference Methods](entities/method--stated-preference-methods.md) — Experimental methods for examining attitudes, preferences and choices as a basis for travel forecasting.
+- [Synthetic Sample Generation](entities/method--synthetic-sample-generation.md) — Method of creating representative samples of individuals or households from secondary data sources or by augmenting existing samples, used for aggregation and forecasting with disaggregate choice models.
+- [Traditional Four-Step Travel Forecasting Procedure](entities/method--traditional-four-step-travel-forecasting-procedure.md) — Traditional aggregate urban travel forecasting procedure criticised for theoretical, statistical, behavioural and policy-sensitivity limitations.
+- [Travel Choice Analysis with Random Cost Distributions](entities/method--travel-choice-analysis-with-random-cost-distributions.md) — Travel-choice analysis framed with random distributions of costs, attributed in the source to Claude Abraham's late-1950s and 1961 work.
 - [Tree-by-Tree Incremental Assignment](entities/method--tree-by-tree-incremental-assignment.md) — A CATS assignment procedure that loaded each shortest-route tree after updating link times.
 - [Trip Distribution](entities/method--trip-distribution.md) — The travel forecasting stage that allocates trips between origin and destination zones.
 - [Trip Generation Analysis](entities/method--trip-generation-analysis.md) — Methods for forecasting trip productions and attractions from zonal or household characteristics.
 - [Trip Table Balancing](entities/method--trip-table-balancing.md) — An iterative adjustment of interchange volumes toward predicted terminal totals.
+- [Trip-Based Approach to Travel Forecasting](entities/method--trip-based-approach-to-travel-forecasting.md) — Label used for practical disaggregate travel forecasting efforts applying behaviourally sophisticated models as alternatives to conventional methods.
+- [Urban Travel Forecasting](entities/method--urban-travel-forecasting.md) — Forecasting practice for urban travel demand and behaviour, including aggregate and disaggregate modelling approaches discussed in the source.
+- [Zonal Regression Trip Generation](entities/method--zonal-regression-trip-generation.md) — Early trip generation method based on regression equations fitted to zonal totals, later displaced by household-based category analysis for trip production in larger UK studies.
 
 ## Metric
 
@@ -55,76 +143,356 @@
 - [BPR Gravity Model](entities/model--bpr-gravity-model.md) — The empirical gravity-model implementation documented for BPR computer programs.
 - [BPR Volume–Delay Function](entities/model--bpr-volume-delay-function.md) — A link performance function relating assigned volume and practical capacity to travel time.
 - [CATS Congested Travel-Time Function](entities/model--cats-congested-travel-time-function.md) — The CATS exponential link travel-time function based on volume and design capacity.
+- [Channel Tunnel Passenger Demand Model](entities/model--channel-tunnel-passenger-demand-model.md) — Passenger demand model for the Channel Tunnel study described in a note as hierarchical logit with generalised cost in power-function form.
+- [Conditional Logit Model](entities/model--conditional-logit-model.md) — McFadden's econometric choice model developed in detail as a useful empirical case in his random-utility framework.
+- [Cross-Correlated Logit Model](entities/model--cross-correlated-logit-model.md) — Model proposed by Williams (1977a) for destination–mode choice combinations with more complex patterns of similarity than nested logit structures; not consistent with utility maximisation in its original form.
+- [Cross-Nested Logit Model](entities/model--cross-nested-logit-model.md) — Member of the generalised extreme value family that allows alternatives to belong to more than one nest, capturing cross-similarities among pure and combined modes.
 - [DMATS Predictive Zonal Interchange Formula](entities/model--dmats-predictive-zonal-interchange-formula.md) — A fitted relationship between zonal trip interchanges, trip ends and zone separation.
+- [Discrete Travel Choice Model](entities/model--discrete-travel-choice-model.md) — Probabilistic model family for travel choices among alternatives, developed within an economic framework and often based on random utility maximisation.
+- [Doubly-Constrained Spatial Interaction Model](entities/model--doubly-constrained-spatial-interaction-model.md) — Entropy maximising journey-to-work trip distribution model constrained by origin productions and destination attractions, introduced by Wilson (1967).
 - [EMPIRIC](entities/model--empiric.md) — A regression-based urban development model developed for the Boston Regional Planning Project.
+- [Elimination by Aspects Model](entities/model--elimination-by-aspects-model.md) — Tversky model mentioned by McFadden as a possible source of practical functional forms without IIA.
+- [Generalised Extreme Value Model](entities/model--generalised-extreme-value-model.md) — McFadden model class discussed by Boyce and Williams as containing the nested logit model as an important special case.
 - [Gravity Model](entities/model--gravity-model.md) — A spatial interaction model used to distribute trips or truck flows.
 - [HUD Modal Split Model](entities/model--hud-modal-split-model.md) — Modal split calibration and application modules in the HUD transit battery.
+- [HUDS Model](entities/model--huds-model.md) — Microsimulation housing market model developed by Kain and Apgar (1985) at Harvard in the early 1980s.
 - [Helvig Gravity Model of External Truck Movements](entities/model--helvig-gravity-model-of-external-truck-movements.md) — A gravity model applied to truck movements entering the Chicago study area.
 - [Herbert–Stevens Residential Location Model](entities/model--herbert-stevens-residential-location-model.md) — A linear-programming residential location model designed to emulate spatial market clearing.
+- [Heteroscedastic Extreme Value Model](entities/model--heteroscedastic-extreme-value-model.md) — Discrete choice model formulated by Bhat (1995) in which Gumbel error terms are allowed to have different variances across alternatives, requiring a one-dimensional integration.
+- [Hierarchical Elimination-by-Aspects Model](entities/model--hierarchical-elimination-by-aspects-model.md) — Special case of the elimination-by-aspects model proposed by Tversky and Sattath (1979) in which subsets of alternatives sharing aspects form a preference tree, structurally similar to the nested logit (tree extreme value) model.
+- [Hierarchical Mode-Route Freight Model](entities/model--hierarchical-mode-route-freight-model.md) — Nested or hierarchical probit freight model for route and mode combinations in the Channel Tunnel study.
+- [Hierarchical Public Transport Choice Model](entities/model--hierarchical-public-transport-choice-model.md) — Hierarchical model treating public transport as a composite mode before dividing demand among public transport submodes.
 - [Hill Truck Interactance Model](entities/model--hill-truck-interactance-model.md) — A gravity-based model for interzonal truck flows in Toronto.
 - [Intervening Opportunities Model](entities/model--intervening-opportunities-model.md) — A trip distribution model based on ordered destination opportunities and a probability of acceptance.
+- [Invariant Random Utility Maximising Model](entities/model--invariant-random-utility-maximising-model.md) — RUM model class in which alternative utilities are represented as systematic utility plus random residuals independent of systematic utility.
+- [Joint Car Ownership-Work Mode Choice Model](entities/model--joint-car-ownership-work-mode-choice-model.md) — Joint disaggregate MNL model for household car ownership and primary worker work mode choice.
+- [Joint Destination-Mode Choice Model](entities/model--joint-destination-mode-choice-model.md) — Simultaneous MNL structure over destination and mode combinations for shopping trips in Ben-Akiva's study.
+- [Joint Distribution Modal Split Model](entities/model--joint-distribution-modal-split-model.md) — Multi-modal, multi-person-type model of multinomial logit form introduced by Wilson (1967) that jointly determines destination and mode choice.
 - [Lowry Model](entities/model--lowry-model.md) — A two-sector urban activity location model also called Model of Metropolis.
+- [MASTER Model](entities/model--master-model.md) — Urban microsimulation model developed by Roger Mackett (1985) capturing interdependencies between transportation, employment and residence.
+- [Mixed Multinomial Logit Model](entities/model--mixed-multinomial-logit-model.md) — Open-form discrete choice random utility model in which random parameters or error components allow for taste heterogeneity and flexible correlation patterns among alternatives.
+- [Multinomial Logit Model](entities/model--multinomial-logit-model.md) — Discrete choice random utility model in which the random error terms are independent and identically Gumbel distributed, giving a closed-form choice probability expression.
+- [Multinomial Normal Model](entities/model--multinomial-normal-model.md) — General choice model discussed in the source as a possible mid-1970s route for addressing similarity issues in multimodal choice.
+- [Multinomial Probit Model](entities/model--multinomial-probit-model.md) — Discrete choice model based on normal random utility distributions, described as computationally onerous for multiple alternatives.
+- [Nested Logit Model](entities/model--nested-logit-model.md) — Discrete-choice random utility model presented as a practical generalisation of MNL that avoids the IIA property.
+- [Network-GEV Model](entities/model--network-gev-model.md) — GEV model formulation by Daly and Bierlaire, equivalent to the recursive nested extreme value model, using a network structure to capture correlation among alternatives.
+- [Probabilistic Choice Model](entities/model--probabilistic-choice-model.md) — Choice model class in which selection probabilities are derived from utility, psychological choice assumptions, or distributions of utilities.
+- [Projective Land Use Model](entities/model--projective-land-use-model.md) — Land use forecasting model adopted in the San Francisco Bay Area MTC study to project future land use, employment location, residential location, housing-type choices and socio-economic characteristics.
+- [Random Parameter Model](entities/model--random-parameter-model.md) — Choice model class attributing random utility variation to distributions of taste parameters in representative utility or generalised cost.
+- [Random Parameters Logit Model](entities/model--random-parameters-logit-model.md) — Form of the mixed multinomial logit model in which the parameters of the representative utility vary over the population according to a mixing distribution.
+- [Recursive Nested Extreme Value Model](entities/model--recursive-nested-extreme-value-model.md) — Generalisation of the cross-nested logit model proposed by Andrew Daly, based on multiple layering of nests.
 - [Regional Growth Model](entities/model--regional-growth-model.md) — The PJTS model proposed to simulate location, trip making, land markets and transport interactions.
+- [Singly-Constrained Spatial Interaction Model](entities/model--singly-constrained-spatial-interaction-model.md) — Entropy maximising spatial interaction or location model constrained at only one end of the trip, used by Wilson (1967) for shopping and residential choice contexts.
+- [Tanner Car Ownership Model](entities/model--tanner-car-ownership-model.md) — Time-series car ownership forecasting model using a logistic curve with saturation rate, developed by John Tanner at the UK Road Research Laboratory.
 - [Trip-End Modal Split Model](entities/model--trip-end-modal-split-model.md) — A modal split model applied to trip origins and destinations before distribution.
 - [Trip-Interchange Modal Split Model](entities/model--trip-interchange-modal-split-model.md) — A modal split model applied to distributed zone-to-zone interchanges.
+- [Universal Logit Model](entities/model--universal-logit-model.md) — Generalisation of MNL introduced by McFadden as a basis for statistical exploration of IIA failures.
+- [Warner Binary Choice Model](entities/model--warner-binary-choice-model.md) — Probabilistic binary mode choice model developed by Stanley Warner using discriminant and regression analysis on Chicago commuter data.
+- [Wootton-Pick Car Ownership Model](entities/model--wootton-pick-car-ownership-model.md) — Car ownership forecasting model developed by Wootton and Pick using conditional probabilities of car ownership against household income, applied in the West Midlands Study.
 
 ## Organization
 
 - [Alan M. Voorhees and Associates](entities/organization--alan-m-voorhees-and-associates.md) — Contractor for the Urban Mass Transit Planning Project.
 - [Armour Research Foundation](entities/organization--armour-research-foundation.md) — Chicago research institute contracted to investigate shortest-route computation for CATS.
 - [Bureau of Public Roads](entities/organization--bureau-of-public-roads.md) — U.S. federal road agency that developed travel forecasting methods, manuals and computer programs.
+- [Buro Goudappel en Coffeng](entities/organization--buro-goudappel-en-coffeng.md) — Dutch organization that conducted a 1973-74 study with Cambridge Systematics applying disaggregate probabilistic travel demand models in the Netherlands.
+- [Cambridge Systematics](entities/organization--cambridge-systematics.md) — Consultancy associated with transfer of disaggregate travel demand modelling ideas to the Netherlands.
+- [Charles River Associates](entities/organization--charles-river-associates.md) — Organization associated in the source with a pioneering 1972 study on model structures within a discrete choice framework.
+- [Coopers and Lybrand Associates](entities/organization--coopers-and-lybrand-associates.md) — Consultants who undertook a 1972-73 Channel Tunnel economic assessment including a hierarchical freight model.
+- [Department of the Environment](entities/organization--uk-department-of-the-environment.md) — UK government department that took over transport responsibilities from the Ministry of Transport after 1970.
+- [English Electric Computers](entities/organization--english-electric-computers.md) — Computer bureau (later BARIC) used by the Worcester Transport Study in the mid 1960s for batch processing of model runs.
+- [Federal Highway Administration](entities/organization--federal-highway-administration.md) — US agency for which Charles River Associates conducted the 1972 study described in section 4.4.
+- [Freeman, Fox and Wilbur Smith and Associates](entities/organization--freeman-fox-wilbur-smith-and-associates.md) — Consulting consortium that carried out the London Traffic Survey and developed the Transport Analysis Programs (TAP) in the UK in the 1960s.
+- [Hague Consulting Group](entities/organization--hague-consulting-group.md) — Consultancy that evolved from Cambridge Systematics Europe and carried out disaggregate travel demand studies in the Netherlands, including the South Wing study, transferability research and the Dutch national model.
+- [Institute for Transport Studies at the University of Leeds](entities/organization--institute-for-transport-studies-university-of-leeds.md) — University of Leeds research institute where Huw Williams and Martyn Senior developed nested logit formulations and applied them to the Leeds–West Yorkshire study area.
+- [Local Government Operational Research Unit](entities/organization--local-government-operational-research-unit.md) — UK research unit that applied disaggregate mode-choice methods to journey-to-work studies in the late 1960s and early 1970s.
+- [London Traffic Management Unit](entities/organization--london-traffic-management-unit.md) — Unit established by UK minister of transport Ernest Marples to manage London traffic in the late 1950s.
+- [Mathematical Advisory Unit](entities/organization--mathematical-advisory-unit.md) — Unit within the Economic Planning Directorate of the UK Ministry of Transport where Alan Wilson led work on transport evaluation methodology.
+- [Metropolitan Transportation Commission](entities/organization--metropolitan-transportation-commission.md) — San Francisco Bay Area planning organization implementing individual choice models in the mid-1970s according to the source.
+- [Peat, Marwick, Mitchell & Co.](entities/organization--peat-marwick-mitchell-and-co.md) — Consultants who undertook an early individual choice model application for the San Diego County Planning Organization.
+- [San Diego County Planning Organization](entities/organization--san-diego-county-planning-organization.md) — Planning agency for which Peat, Marwick, Mitchell & Co. undertook an early individual choice model application.
+- [Steering Group to the UK Minister of Transport](entities/organization--steering-group-to-the-uk-minister-of-transport.md) — Group that reported to the UK minister of transport in the preface to the 1963 Traffic in Towns report.
 - [Traffic Research Corporation](entities/organization--traffic-research-corporation.md) — Developer of the EMPIRIC model.
 - [U.S. Department of Housing and Urban Development](entities/organization--us-department-of-housing-and-urban-development.md) — Federal department responsible for urban public transit planning during the period described.
+- [UK Ministry of Transport](entities/organization--uk-ministry-of-transport.md) — UK government ministry responsible for transport policy in the 1960s and sponsor of the first-generation urban transportation studies.
+- [UK Road Research Laboratory](entities/organization--uk-road-research-laboratory.md) — UK research organisation where John Tanner developed influential time-series car ownership forecasting models.
+- [US Department of Transportation](entities/organization--us-department-of-transportation.md) — US federal department associated in the source with the Spear 1977 report and the Urban Transportation Planning System.
+- [University of California, Berkeley](entities/organization--university-of-california-berkeley.md) — University where Daniel McFadden and colleagues undertook a prominent BART validation study.
 
 ## Person
 
+- [A.J. Harris](entities/person--a-j-harris.md) — Co-author with John Tanner of a 1974 TRRL paper on a general theory of travel demand.
+- [Alan Wilson](entities/person--alan-wilson.md) — British mathematical geographer and planner who led the Mathematical Advisory Unit in the UK Ministry of Transport and coined the term 'generalised cost'.
+- [Alex Anas](entities/person--alex-anas.md) — Economist and urban modeller whose 1982 text argued for the unification of urban economics, transportation planning and urban modelling using a random utility discrete choice framework.
+- [Amos Tversky](entities/person--amos-tversky.md) — Psychologist and behavioural scientist who proposed the elimination-by-aspects (EBA) model and, with Shmuel Sattath, the hierarchical elimination-by-aspects (HEBA) model.
+- [Andrew Daly](entities/person--andrew-daly.md) — Researcher cited by Boyce and Williams for drawing attention to early UK demand analysis and value-of-time work.
+- [Axel Borsch-Supan](entities/person--axel-borsch-supan.md) — Economist whose 1987 text applied discrete choice econometrics to housing and urban systems.
+- [Beesley](entities/person--beesley.md) — Researcher whose 1965 graphical approach to the trade-off between time and cost differences influenced Quarmby's modal choice analysis.
 - [Benjamin Stevens](entities/person--benjamin-stevens.md) — Co-formulator of the Herbert–Stevens residential location model.
 - [Britton Harris](entities/person--britton-harris.md) — Researcher identified with the intellectual development of the Regional Growth Model.
+- [Bruce Hutchinson](entities/person--bruce-hutchinson.md) — Transportation researcher who, in 1974, compared the use of trip-end and trip-interchange modal split models in cities of different sizes.
+- [Bruce Spear](entities/person--bruce-spear.md) — Author of a 1977 US Department of Transportation report on early individual choice model applications.
+- [Burrell](entities/person--burrell.md) — UK researcher who developed a stochastic route choice method for assignment using rectangular link time distributions, applied in UK transportation studies from the late 1960s.
+- [Chandra Bhat](entities/person--chandra-bhat.md) — Transportation researcher who formulated the heteroscedastic extreme value (HEV) model and the maximum approximate composite marginal likelihood (MACML) approach.
+- [Christopher Foster](entities/person--christopher-foster.md) — British economist at the University of Oxford who led the team in which Alan Wilson worked and co-authored with Michael Beesley a 1963 cost-benefit analysis of the Victoria Line.
+- [Claude Abraham](entities/person--claude-abraham.md) — Researcher identified by Boyce and Williams with an early travel-choice analysis using random distributions of costs.
+- [Colin Buchanan](entities/person--colin-buchanan.md) — Senior UK civil servant who led the team assembled to produce the 1963 Traffic in Towns report.
+- [Daniel McFadden](entities/person--daniel-mcfadden.md) — US economist described by Boyce and Williams as an outstanding contributor to micro-level behavioural travel-demand modelling.
+- [David Boyce](entities/person--david-boyce.md) — Co-author of the source book and co-author of a 1970 study analysing land use–transportation alternatives in the US.
+- [David Hensher](entities/person--david-hensher.md) — Major contributor to the theory and application of stated preference and stated choice methods in transportation, often collaborating with Jordan Louviere.
+- [David Quarmby](entities/person--david-quarmby.md) — British transport economist whose 1967 Leeds Ph.D. research on modal choice for the journey to work contributed to the value-of-time and generalised-cost methodology in UK transport evaluation.
+- [David Starkie](entities/person--david-starkie.md) — British transportation analyst whose 1973 review of early UK transportation studies identified the unsuitable transfer of US trip-end modal split methods to the UK.
 - [Douglass Lee](entities/person--douglass-lee.md) — Author of Requiem for Large-Scale Models.
+- [Duncan Luce](entities/person--duncan-luce.md) — Mathematical psychologist associated in the source with axiomatic probabilistic choice models and the IIA axiom.
 - [Edward Moore](entities/person--edward-moore.md) — Mathematician who devised a label-correcting shortest-route algorithm.
+- [Eric Ruiter](entities/person--eric-ruiter.md) — Co-author with Moshe Ben-Akiva of the 1978 report on the Metropolitan Transportation Commission disaggregate travel forecasting model for the San Francisco Bay Area.
+- [Ernest Marples](entities/person--ernest-marples.md) — UK minister of transport in the late 1950s who formed the London Traffic Management Unit, initiated traffic studies in London and Glasgow, and asked Colin Buchanan to investigate car-related problems.
+- [Frank Koppelman](entities/person--frank-koppelman.md) — Researcher associated in the source with extensive numerical analysis and taxonomy of aggregation methods for discrete choice models.
+- [Gerald Pick](entities/person--gerald-pick.md) — Co-originator with John Wootton of the household-based category analysis approach for trip generation in the UK, at Freeman, Fox and Wilbur Smith.
+- [Gerard Drake](entities/person--gerard-drake.md) — Director of the first London Traffic Study, cited for a 1963 description of motor-age traffic problems.
+- [Guy Orcutt](entities/person--guy-orcutt.md) — Economist at the University of Minnesota whose work with collaborators in the 1950s and 1970s on evolving representative samples of individuals and households through Monte Carlo transitions is identified as an origin of large-scale dynamic microsimulation models.
+- [Henry Neuberger](entities/person--henry-neuberger.md) — British economist (1943–1998) who in 1971 analysed three methods for calculating user benefits from land use and transportation projects and linked economic evaluation to accessibility measures.
+- [Huw Williams](entities/person--huw-williams.md) — Co-author of the source book and researcher at the University of Leeds who in the mid-1970s developed tree-based nested logit formulations, parameter inequality conditions and logsum welfare measures for travel demand models.
 - [Ira Lowry](entities/person--ira-lowry.md) — Economist who formulated the Lowry Model.
 - [J. Douglas Carroll, Jr.](entities/person--j-douglas-carroll-jr.md) — Study director of DMATS and an early contributor to sequential urban travel forecasting.
+- [Jacob Marschak](entities/person--jacob-marschak.md) — Economist credited in the source with establishing probabilistic choice models based on random utility maximisation.
+- [Jean-Gerard Koenig](entities/person--jean-gerard-koenig.md) — Researcher noted for an independent random-utility destination-choice study deriving logsum accessibility expressions.
 - [John Herbert](entities/person--john-herbert.md) — Co-formulator of the Herbert–Stevens residential location model.
+- [John Pendlebury](entities/person--john-pendlebury.md) — Developer of the passenger demand model mentioned in Chapter 4 note 25.
+- [John Rose](entities/person--john-rose.md) — Co-author with Michiel Bliemer of reviews and explanations of experimental design strategies for stated choice experiments, particularly efficient designs for non-linear models.
+- [John Tanner](entities/person--john-tanner.md) — UK Road Research Laboratory researcher who developed a widely used time-series logistic-curve model for car ownership forecasting in the 1960s.
+- [John Wootton](entities/person--john-wootton.md) — British transportation engineer with US graduate training who joined Freeman, Fox and Wilbur Smith in 1962 and later developed the Transport Analysis Programs (TAP).
+- [Jordan Louviere](entities/person--jordan-louviere.md) — Pioneer of conjoint analysis and stated choice methods in transportation and market research, co-author of the standard text on stated choice methods.
+- [Kenneth Small](entities/person--kenneth-small.md) — Transportation economist whose work on scheduling choice, value of time, and value of reliability has been influential in travel demand modelling.
+- [Kenneth Train](entities/person--kenneth-train.md) — Economist and author of a widely cited text on simulation approaches to choice modelling, and co-developer of the mixed logit model.
+- [Louis Leon Thurstone](entities/person--louis-leon-thurstone.md) — Psychologist whose 1927 work is described as part of the older pedigree of distributed-utility choice models.
+- [Marcus Wigan](entities/person--marcus-wigan.md) — Transportation researcher who reviewed UK speed-flow and level-of-service functions for capacity restraint assignment in 1977.
+- [Martyn Senior](entities/person--martyn-senior.md) — University of Leeds colleague of Huw Williams who collaborated on nested logit model applications, logsum user benefit measures and the identification of the parameter size anomaly.
+- [Marvin Manheim](entities/person--marvin-manheim.md) — American transportation systems researcher (1937–2000) who in 1973 argued that the Urban Transportation Model System (UTMS) was no longer satisfactory and that a new generation of analysis tools was needed.
+- [Michael Bruton](entities/person--michael-bruton.md) — British planning scholar whose 1975 review contrasted UK and US approaches to land-use forecasting in transportation studies.
+- [Michel Bierlaire](entities/person--michel-bierlaire.md) — Transportation researcher who introduced the network representation for GEV models and studied the cross-nested logit model.
+- [Michiel Bliemer](entities/person--michiel-bliemer.md) — Co-author with John Rose of reviews and explanations of experimental design strategies for stated choice experiments, particularly efficient designs for non-linear models.
 - [Morton Schneider](entities/person--morton-schneider.md) — Contributor to CATS trip distribution and traffic assignment methods.
+- [Moshe Ben-Akiva](entities/person--moshe-ben-akiva.md) — Researcher whose Ph.D. work is presented as an alternative approach to discrete-choice travel demand model structures.
+- [Peter Bonsall](entities/person--peter-bonsall.md) — Researcher at the University of Leeds who in the late 1970s applied microsimulation to model organised car sharing programmes in West Yorkshire.
+- [Peter Diamond](entities/person--peter-diamond.md) — MIT economist associated by McFadden with founding ideas for the CRA travel demand model.
+- [Peter Vovsha](entities/person--peter-vovsha.md) — Researcher who identified and applied the cross-nested logit (CNL) model within the generalised extreme value family.
+- [Richard Quandt](entities/person--richard-quandt.md) — Economist associated in the source with an influential 1960s random-parameter modal choice model.
+- [Robert Cochrane](entities/person--robert-cochrane.md) — Researcher associated with the Channel Tunnel freight model and a random-utility derivation of spatial interaction models.
 - [Robert Dial](entities/person--robert-dial.md) — Researcher who proposed the STOCH network loading method.
+- [Robert Hall](entities/person--robert-hall.md) — MIT economist associated by McFadden with founding ideas for the CRA travel demand model.
 - [Robert Mitchell](entities/person--robert-mitchell.md) — Planner who described the integrated approach adopted by PJTS.
 - [Roger Creighton](entities/person--roger-creighton.md) — Assistant director for research and planning in CATS.
+- [Roger Mackett](entities/person--roger-mackett.md) — Developer of the MASTER (Micro-Analytical Simulation of Transportation, Employment and Residence) urban microsimulation model in the early 1980s.
+- [Shmuel Sattath](entities/person--shmuel-sattath.md) — Co-author with Amos Tversky of the hierarchical elimination-by-aspects (HEBA) model, which structures alternatives in a preference tree.
+- [Stan Zachary](entities/person--stan-zachary.md) — Mathematician at the UK Local Government Operational Research Unit who, with Andrew Daly, developed a fully specified nested logit model and the Harris–Zachary conditions for translational invariant random utility models.
+- [Stanley Warner](entities/person--stanley-warner.md) — US transportation researcher whose 1962 Northwestern Ph.D. thesis pioneered the disaggregate, probabilistic modelling of binary mode choice.
+- [Steven Lerman](entities/person--steven-lerman.md) — Researcher credited in the source with the first joint disaggregate model for car ownership and work mode choice.
+- [Thomas Domencich](entities/person--thomas-domencich.md) — Researcher associated in the source with Daniel McFadden and the 1975 discussion of MNL and random utility models.
+- [Tim Powell](entities/person--tim-powell.md) — Practitioner at Freeman, Fox and Wilbur Smith and Associates attributed by Wootton (2004) with the origin of the Rule-of-a-Half user benefit measure.
+- [Tony Flowerdew](entities/person--tony-flowerdew.md) — Researcher credited with proposing the Channel Tunnel hierarchical freight modelling approach.
+- [Toshiyuki Morikawa](entities/person--toshiyuki-morikawa.md) — Researcher who proposed scaling the variance of unobserved effects in stated preference data to allow pooling with revealed preference data in discrete choice models.
 - [Vladimir Almendinger](entities/person--vladimir-almendinger.md) — PJTS analyst who outlined the Regional Growth Model.
 
 ## Place
 
 - [Detroit Metropolitan Area](entities/place--detroit-metropolitan-area.md) — The Michigan metropolitan area studied by DMATS.
+- [Eindhoven Region](entities/place--eindhoven-region.md) — Dutch region where Richards and Ben-Akiva's disaggregate urban travel model project was conducted.
 
 ## Policy
 
 - [Federal-Aid Highway Act of 1944](entities/policy--federal-aid-highway-act-of-1944.md) — U.S. legislation that designated the interstate highway system.
 - [Federal-Aid Highway Act of 1956](entities/policy--federal-aid-highway-act-of-1956.md) — U.S. legislation that funded construction of the interstate highway system with user taxes.
 - [Federal-Aid Highway Act of 1962](entities/policy--federal-aid-highway-act-of-1962.md) — U.S. legislation requiring a comprehensive urban transportation planning process.
+- [January 1964 Joint Circular](entities/policy--january-1964-joint-circular.md) — Joint circular by UK ministers of transport and housing and local government in January 1964, endorsing the findings of Traffic in Towns and emphasising land use–transportation studies.
 
 ## Project
 
 - [1956 Chicago Origin–Destination Survey](entities/project--1956-chicago-origin-destination-survey.md) — The Chicago survey whose recorded trips were analyzed with the Cartographatron.
 - [1980 Detroit Expressway Plan](entities/project--1980-detroit-expressway-plan.md) — The future expressway network plan prepared and iteratively revised by DMATS.
+- [Amsterdam SIGMO Study](entities/project--amsterdam-sigmo-study.md) — Dutch application of the MTC-style disaggregate modelling approach to the Amsterdam metropolitan area, undertaken by Cambridge Systematics in the late 1970s.
+- [BART Before-and-After Study](entities/project--bart-before-and-after-study.md) — Berkeley study comparing pre-BART MNL forecasts with observed BART mode shares in 1975.
+- [Bay Area Rapid Transit System](entities/project--bay-area-rapid-transit-system.md) — San Francisco Bay Area rapid transit system whose completion provided a validation setting for disaggregate RUM-based models.
 - [Boston Regional Planning Project](entities/project--boston-regional-planning-project.md) — The eastern Massachusetts planning project for which EMPIRIC was developed.
+- [Channel Tunnel Economic Assessment](entities/project--channel-tunnel-economic-assessment.md) — 1972-73 economic assessment of the proposed Channel Tunnel linking Britain with France, including passenger and freight hierarchical models.
 - [Chicago Area Transportation Study](entities/project--chicago-area-transportation-study.md) — A metropolitan transportation study initiated in the mid-1950s that developed and applied major travel forecasting methods.
+- [Coventry Transportation Study](entities/project--coventry-transportation-study.md) — UK transportation study in the early 1970s that adopted a simultaneous distribution–modal split (G/D-M/A) structure.
 - [Detroit Metropolitan Area Traffic Study](entities/project--detroit-metropolitan-area-traffic-study.md) — A Detroit-area highway planning and urban travel forecasting study initiated in 1953.
+- [Dutch National Model](entities/project--dutch-national-model.md) — National-level disaggregate travel demand model for the Netherlands, intended to produce forecasts of road and rail traffic flows for planning up to 2010.
+- [Glasgow Traffic Study](entities/project--glasgow-traffic-study.md) — Major Scottish traffic study initiated by UK minister of transport Ernest Marples in the late 1950s.
+- [Greater Glasgow Transportation Study](entities/project--greater-glasgow-transportation-study.md) — Conurbation land use–transportation study begun in 1964 and encouraged by the UK Ministry of Transport.
+- [Greater London Transportation Study](entities/project--greater-london-transportation-study.md) — London transportation study in the early 1970s that adopted a simultaneous distribution–modal split (G/D-M/A) structure.
+- [Huddersfield Urban Bus Study](entities/project--huddersfield-urban-bus-study.md) — UK urban bus study in which Daly and Zachary applied a three-level nested logit model to mode–route choice among car, bus by multiple routes and walk.
+- [London Traffic Study](entities/project--london-traffic-study.md) — The first London traffic study, directed by Gerard Drake, for which motor-age problems were described in 1963.
+- [London Transportation Study Phase III](entities/project--london-transportation-study-phase-iii.md) — Third phase of the London Transportation Study, which applied cost–benefit evaluation using the Rule-of-a-Half as an approximation to consumer surplus.
+- [Merseyside Area Land-Use/Transportation Study](entities/project--merseyside-area-land-use-transportation-study.md) — Merseyside study begun in 1966 that adopted the Traffic Research Corporation trip-interchange modal split model.
 - [National System of Interstate and Defense Highways](entities/project--national-system-of-interstate-and-defense-highways.md) — The interregional highway system designated in 1944 and funded for construction in 1956.
 - [Penn Jersey Transportation Study](entities/project--penn-jersey-transportation-study.md) — A Philadelphia-region study of integrated land use and transportation alternatives.
+- [SELNEC Transportation Study](entities/project--selnec-transportation-study.md) — Land use–transportation study for South East Lancashire and North East Cheshire begun in 1965 and encouraged by the UK Ministry of Transport.
+- [San Francisco Bay Area MTC Study](entities/project--san-francisco-bay-area-mtc-study.md) — Landmark mid-1970s study for the San Francisco Bay Area Metropolitan Transportation Commission that integrated disaggregate models into a travel forecasting system and compared it with the traditional four-step approach.
+- [South Wing Zuidvleugel Study](entities/project--south-wing-zuidvleugel-study.md) — First full-scale Dutch regional study based on disaggregate techniques, covering Rotterdam and The Hague and modelling travel by tours for eight purposes.
+- [Teesside Transportation Study](entities/project--teesside-transportation-study.md) — UK land use–transportation study begun in 1965, noted as an exception in its attempt to forecast land use systematically.
+- [Tyneside Transportation Study](entities/project--tyneside-transportation-study.md) — Tyneside land use–transportation study begun in 1967 and encouraged by the UK Ministry of Transport.
 - [Urban Mass Transit Planning Project](entities/project--urban-mass-transit-planning-project.md) — A HUD project to develop public-transport planning computer programs.
+- [West Midlands Transportation Study](entities/project--west-midlands-transportation-study.md) — First major UK land use–transportation study begun in 1964, encouraged and co-funded by the UK Ministry of Transport.
+- [West Yorkshire Transportation Study](entities/project--west-yorkshire-transportation-study.md) — West Yorkshire land use–transportation study begun in 1967 that adopted the Traffic Research Corporation trip-interchange modal split model.
+- [Worcester Transport Study](entities/project--worcester-transport-study.md) — Mid-1960s UK transport study that sent computer run specifications to English Electric Computers (later BARIC) via British Rail Red Star.
 
 ## Technology
 
+- [CDC 3300](entities/technology--cdc-3300.md) — Control Data Corporation computer acquired by Wilbur Smith and Associates, prompting the development of the Transport Analysis Programs.
 - [IBM 704](entities/technology--ibm-704.md) — A first-generation mainframe used for CATS model computation.
+- [IBM 7090](entities/technology--ibm-7090.md) — Mainframe computer used in the UK in 1962 for analysing the London and Glasgow traffic survey data.
+
+## Theory
+
+- [Random Utility Maximisation](entities/theory--random-utility-maximisation.md) — Economic choice theory in which individuals select alternatives according to utility maximisation with random components.
 
 ## Tool
 
+- [ALOGIT](entities/tool--alogit.md) — Software program developed by Andrew Daly for estimating nested logit and other discrete choice models.
 - [BPR Highway Program Battery](entities/tool--bpr-highway-program-battery.md) — A documented collection of BPR programs for highway travel forecasting.
 - [Cartographatron](entities/tool--cartographatron.md) — A cathode-ray display device used by CATS to visualize recorded trips.
 - [HUD Transit Battery](entities/tool--hud-transit-battery.md) — A program battery for modal split forecasting and transit network planning.
+- [SYNSAM](entities/tool--synsam.md) — Berkeley procedure for generating synthetic representative household samples for urban areas, using Iterative Proportional Fitting and random sampling.
+- [TRANSEPT](entities/tool--transept.md) — Bus transport system model developed by LGORU and applied in the Coventry Transportation Study before being extended to include mode–route choices.
+- [TRANSITNET Suite](entities/tool--transitnet-suite.md) — Suite of programs developed by John Wootton at Freeman, Fox and Wilbur Smith for line-based public transport network representation and assignment in the UK.
+- [Transport Analysis Programs](entities/tool--transport-analysis-programs.md) — Software written by Wootton and colleagues at Freeman, Fox and Wilbur Smith to incorporate innovative UK methods and models in the second half of the 1960s.
 - [Urban Transportation Planning System](entities/tool--urban-transportation-planning-system.md) — A 1970s transportation planning software system based in part on the HUD transit battery.
 
 ## Work
 
 - [1950 Highway Capacity Manual](entities/work--highway-capacity-manual-1950.md) — The manual quoted for the historical definition of practical capacity.
+- [Adler and Ben-Akiva 1975](entities/work--adler-and-ben-akiva-1975.md) — Work extending Ben-Akiva's Ph.D. findings to a joint MNL structure for shopping frequency, destination and mode.
+- [Anas 1982](entities/work--anas-1982.md) — Text by Alex Anas arguing for the unification of urban economics, transportation planning and urban modelling through a random utility discrete choice framework.
+- [Anas 1983](entities/work--anas-1983.md) — Cited work by Alex Anas on integrated land use and transportation modelling with a random utility discrete choice basis.
+- [Anas 1984](entities/work--anas-1984.md) — Cited work by Alex Anas on integrated land use and transportation modelling with a random utility discrete choice basis.
+- [Anderson et al 1992](entities/work--anderson-et-al-1992.md) — Cited work applying discrete choice theory to product diversity and consumer choice in economic markets.
+- [Beesley 1965](entities/work--beesley-1965.md) — Study cited by Quarmby (1967) that used a graphical approach to determine the trade-off between time differences and cost differences in modal choice.
+- [Ben-Akiva 1973](entities/work--ben-akiva-1973.md) — Source cited by Boyce and Williams (2015) among the early 1970s critiques of conventional urban transportation model systems for policy insensitivity.
+- [Ben-Akiva 1974](entities/work--ben-akiva-1974.md) — Work cited by Boyce and Williams together with Ben-Akiva 1973 on model structures within a discrete choice framework.
+- [Ben-Akiva and Atherton 1977](entities/work--ben-akiva-and-atherton-1977.md) — Study cited for car-pooling policy applications, micro-level household interdependency, sample enumeration, pivot-point MNL and before-and-after validation.
+- [Ben-Akiva and Bolduc 1996](entities/work--ben-akiva-and-bolduc-1996.md) — Paper by Moshe Ben-Akiva and Denis Bolduc on the mixed multinomial logit model in error components form.
+- [Ben-Akiva and Lerman 1985](entities/work--ben-akiva-and-lerman-1985.md) — Text by Moshe Ben-Akiva and Steven Lerman on discrete choice analysis and travel demand.
+- [Ben-Akiva et al 1978](entities/work--ben-akiva-et-al-1978.md) — Study describing the SIGMO disaggregate travel demand model applied to the Amsterdam metropolitan area, based on the MTC approach.
+- [Ben-Akiva et al 1997](entities/work--ben-akiva-et-al-1997.md) — Multi-author contribution to Marketing Letters on discrete choice methods with latent variables.
+- [Ben-Akiva et al 1999](entities/work--ben-akiva-et-al-1999.md) — Multi-author contribution to Marketing Letters on discrete choice methods with latent variables.
+- [Ben-Akiva et al 2001](entities/work--ben-akiva-et-al-2001.md) — Paper by Moshe Ben-Akiva and colleagues describing the logit kernel form of the mixed multinomial logit model.
+- [Ben-Akiva et al 2002a](entities/work--ben-akiva-et-al-2002a.md) — Paper by Moshe Ben-Akiva and colleagues introducing the hybrid choice framework, integrating discrete choice methods with latent variable models.
+- [Ben-Akiva et al 2002b](entities/work--ben-akiva-et-al-2002b.md) — Multi-author contribution to Marketing Letters on discrete choice methods with latent variables.
+- [Ben-Akiva et al 2012](entities/work--ben-akiva-et-al-2012.md) — Multi-author contribution to Marketing Letters on discrete choice methods with latent variables.
+- [Bhat 1995](entities/work--bhat-1995.md) — Paper by Chandra Bhat formulating the heteroscedastic extreme value (HEV) model.
+- [Bhat and Dubey 2013](entities/work--bhat-and-dubey-2013.md) — Paper by Chandra Bhat and Subodh Dubey on latent variables in discrete choice models.
+- [Bierlaire 2002](entities/work--bierlaire-2002.md) — Work by Michel Bierlaire introducing the network representation for generating GEV models.
+- [Bierlaire 2006](entities/work--bierlaire-2006.md) — Work by Michel Bierlaire studying the properties of the cross-nested logit model.
+- [Bolduc and Alvarez-Daziano 2010](entities/work--bolduc-and-alvarez-daziano-2010.md) — Paper by Denis Bolduc and Ricardo Alvarez-Daziano on latent variables in discrete choice models.
+- [Borsch-Supan 1987](entities/work--borsch-supan-1987.md) — Cited text by Axel Borsch-Supan on discrete choice econometrics applied to housing and urban systems.
+- [Boyce et al 1970](entities/work--boyce-et-al-1970.md) — US study cited by Boyce and Williams for analysing land use–transportation alternatives.
+- [Bradley and Daly 1991](entities/work--bradley-and-daly-1991.md) — Paper by Mark Bradley and Andrew Daly introducing the nested logit trick for accommodating differential variance between revealed and stated preference data within a single discrete choice model.
+- [Bruton 1975](entities/work--bruton-1975.md) — Review of UK land use–transportation studies cited by Boyce and Williams; contrasted UK land-use forecasting with US practice.
+- [Burrell 1969](entities/work--burrell-1969.md) — Source work in which Burrell developed a stochastic route choice method for trip assignment using rectangular link time distributions.
+- [Carrasco and Ortúzar 2002](entities/work--carrasco-and-ortuzar-2002.md) — Cited work on the nested logit model by Juan Antonio Carrasco and Juan de Dios Ortúzar.
+- [Charles River Associates 1972](entities/work--charles-river-associates-1972.md) — Pioneering study cited by Boyce and Williams for model structures derived within a discrete choice framework.
+- [Charles River Associates 1976](entities/work--charles-river-associates-1976.md) — Study cited for diagnostic tests for failure of the IIA property in MNL modal choice applications.
+- [Coelho and Williams 1978](entities/work--coelho-and-williams-1978.md) — Cited work formulating or reformulating an integrated land use and transportation model with a random utility discrete choice basis.
+- [Daganzo et al 1977](entities/work--daganzo-et-al-1977.md) — MIT study applying the Clark approximation to the multinomial probit model to simplify its numerical integration.
+- [Daly 1987](entities/work--daly-1987.md) — Cited work by Andrew Daly on the analytic and theoretical characteristics and practical implementation of the nested logit model.
+- [Daly 2001](entities/work--daly-2001.md) — Work by Andrew Daly proposing the recursive nested extreme value (RNEV) model.
+- [Daly and Bierlaire 2006](entities/work--daly-and-bierlaire-2006.md) — Paper by Andrew Daly and Michel Bierlaire formulating the network-GEV model and showing its equivalence to the RNEV model.
+- [Daly and Gunn 1986](entities/work--daly-and-gunn-1986.md) — Study describing the Dutch national model for forecasting traffic flows on major road and rail networks using disaggregate methods, artificial sampling and incremental (pivot-point) methods.
+- [Daly and Zachary 1978](entities/work--daly-and-zachary-1978.md) — Cited work by Andrew Daly and Stan Zachary introducing a fully specified nested logit model, deriving Harris–Zachary conditions and applying it to the Huddersfield Urban Bus Study.
+- [Daly and van Zwam 1981](entities/work--daly-and-van-zwam-1981.md) — Study of the South Wing (Zuidvleugel) disaggregate regional travel model in the Netherlands, covering Rotterdam and The Hague, with explicit modelling of tours.
+- [Dial 1967](entities/work--dial-1967.md) — Source work by Robert Dial on public transport network assignment developed under US HUD contracts, cited in the context of UK and US independent developments.
+- [Dial 1971](entities/work--dial-1971.md) — Source work by Robert Dial that developed a practical stochastic route selection and trip assignment model in the US.
+- [Dial and Bunyan 1968](entities/work--dial-and-bunyan-1968.md) — Source work by Robert Dial and Bunyan on public transport network assignment under US HUD contracts.
+- [Domencich and McFadden 1975](entities/work--domencich-and-mcfadden-1975.md) — Revised publication of the CRA 1972 study cited for hierarchical discrete-choice demand modelling.
+- [Erlander 1977](entities/work--erlander-1977.md) — Work that interpreted the entropy function as a measure of dispersion or spread in travel patterns and derived equivalent trip distribution models by minimising overall travel costs.
 - [Forecasting Urban Travel: Past, Present and Future](entities/work--forecasting-urban-travel-past-present-and-future.md) — The 2015 source book by David Boyce and Huw Williams.
+- [Fosgerau and Bierlaire 2007](entities/work--fosgerau-and-bierlaire-2007.md) — Paper by Mogens Fosgerau and Michel Bierlaire on the sensitivity of mixed logit results to the choice of mixing distribution.
+- [Fosgerau et al 2013](entities/work--fosgerau-et-al-2013.md) — Paper by Mogens Fosgerau, Daniel McFadden and Michel Bierlaire establishing necessary and sufficient conditions for additive random utility models using choice probability generating functions.
+- [Foster and Beesley 1963](entities/work--foster-and-beesley-1963.md) — Seminal paper on cost-benefit analysis applied to the proposed Victoria Line extension of the London Underground, co-authored by Christopher Foster and Michael Beesley.
+- [Freeman, Fox, Wilbur Smith and Associates 1966](entities/work--freeman-fox-wilbur-smith-1966.md) — Report on the London Traffic Survey (1961–62) cited by Boyce and Williams.
+- [HCG 1985](entities/work--hcg-1985.md) — Unpublished Hague Consulting Group paper describing the Dutch transferability study using a scaling approach to transfer disaggregate models between regions.
+- [Harris and Tanner 1974](entities/work--harris-and-tanner-1974.md) — TRRL paper described as a historically important and technical contribution to random utility theory, consumer surplus and travel demand model construction.
+- [Hartgen 1983](entities/work--hartgen-1983.md) — Work cited for a critical practitioner view of newer disaggregate methods as excessively mathematical, theoretical and poorly packaged.
+- [Hensher and Johnson 1981](entities/work--hensher-and-johnson-1981.md) — Text by David Hensher and Eric Johnson on the econometrics of discrete choice applied to transportation.
+- [Hensher and Stopher 1979](entities/work--hensher-and-stopher-1979.md) — Edited conference proceedings on discrete choice models by David Hensher and Peter Stopher.
+- [Hotelling 1938](entities/work--hotelling-1938.md) — Classic work by Harold Hotelling that introduced the generalised consumer surplus measure based on a path integral of demand with respect to cost, subject to integrability conditions.
+- [Hutchinson 1974](entities/work--hutchinson-1974.md) — Source cited for Bruce Hutchinson’s comparison of trip-end and trip-interchange modal split models in medium-sized and larger cities.
+- [Jara-Diaz 2007](entities/work--jara-diaz-2007.md) — Work offering an extended discussion of the Rule-of-a-Half and its theoretical basis in transportation user benefit analysis.
+- [Kain and Apgar 1985](entities/work--kain-and-apgar-1985.md) — Study developing the Harvard Urban Development Simulation (HUDS) microsimulation housing market model in the early 1980s.
+- [Koppelman and Bhat 2006](entities/work--koppelman-and-bhat-2006.md) — Cited work by Frank Koppelman and Chandra Bhat on the nested logit model.
+- [Leonardi and Tadei 1984](entities/work--leonardi-and-tadei-1984.md) — Cited work applying the random utility framework to the location of public services.
+- [Lerman and Ben-Akiva 1975](entities/work--lerman-and-ben-akiva-1975.md) — Work cited for a joint car ownership and work mode choice model.
+- [Lerman and Manski 1981](entities/work--lerman-and-manski-1981.md) — Paper introducing the maximum simulated likelihood approach for estimating discrete choice models by replacing choice probabilities with simulation-based approximations.
+- [Louviere and Hensher 1983](entities/work--louviere-and-hensher-1983.md) — Paper by Jordan Louviere and David Hensher on the stated choice formulation for SP data, using established discrete choice modelling tools.
+- [Louviere et al 2000](entities/work--louviere-et-al-2000.md) — Standard text on stated choice methods by Jordan Louviere, David Hensher and Joffre Swait.
+- [MVA et al 1987](entities/work--mva-et-al-1987.md) — Final report of the UK value of time research programme undertaken by MVA Consultancy, the Institute for Transport Studies at the University of Leeds and the Transport Studies Unit at the University of Oxford, which gave official approval to stated preference methods in the UK.
+- [Mackett 1985](entities/work--mackett-1985.md) — Study by Roger Mackett presenting the MASTER (Micro-Analytical Simulation of Transportation, Employment and Residence) urban microsimulation model.
+- [Mackinder and Evans 1981](entities/work--mackinder-and-evans-1981.md) — Comparative review of 45 UK land use–transportation studies completed before 1971, summarising the techniques applied and assessing the predictive accuracy of their forecasts against out-turn data.
+- [Manheim 1973](entities/work--manheim-1973.md) — Source cited for Marvin Manheim's critique that the Urban Transportation Model System (UTMS) was neither theoretically satisfactory nor relevant to the practical issues of the 1970s, and his call for a new generation of transportation analysis tools.
+- [Martinez 1992](entities/work--martinez-1992.md) — Cited work by Francisco Martinez on integrated land use and transportation modelling.
+- [Mattsson 1987](entities/work--mattsson-1987.md) — Cited work by Lars-Göran Mattsson on integrated land use and transportation modelling.
+- [McFadden 1973](entities/work--mcfadden-1973.md) — Work described by Boyce and Williams as setting out theoretical foundations, properties, estimation and early applications of MNL models based on RUM.
+- [McFadden 1978](entities/work--mcfadden-1978.md) — Daniel McFadden's 1978 paper introducing the generalised extreme value (GEV) family of discrete choice models, of which MNL and nested logit are special cases.
+- [McFadden 1981](entities/work--mcfadden-1981.md) — Daniel McFadden's 1981 chapter reviewing and synthesising discrete choice random utility models, comparing GEV, EBA and multinomial probit forms and developing additive income random utility maximisation (AIRUM) welfare analysis.
+- [McFadden 1989](entities/work--mcfadden-1989.md) — Daniel McFadden's paper adapting the generalised method of moments into the method of simulated moments for estimating discrete choice models.
+- [McFadden 2000b](entities/work--mcfadden-2000b.md) — Cited work by Daniel McFadden discussing the movement of early US researchers into other sectors such as energy, telecommunications, health care and environment.
+- [McFadden and Ruud 1994](entities/work--mcfadden-and-ruud-1994.md) — Paper by Daniel McFadden and Paul Ruud further developing the method of simulated moments for discrete choice model estimation.
+- [McFadden and Train 2000](entities/work--mcfadden-and-train-2000.md) — Paper by Daniel McFadden and Kenneth Train on mixed multinomial logit models and their approximation properties for random utility models.
+- [McFadden et al 1977a](entities/work--mcfadden-et-al-1977a.md) — Berkeley study describing the SYNSAM procedure for generating synthetic representative household samples using Iterative Proportional Fitting and random sampling.
+- [Morikawa 1989](entities/work--morikawa-1989.md) — Study by Toshiyuki Morikawa proposing variance scaling of stated preference data to allow pooling with revealed preference data in discrete choice models.
+- [Morikawa and Sasaki 1998](entities/work--morikawa-and-sasaki-1998.md) — Paper by Toshiyuki Morikawa and Kuniaki Sasaki on latent variables in discrete choice models.
+- [Neuberger 1971](entities/work--neuberger-1971.md) — Work by Henry Neuberger setting out three methods (I fixed demand, II Rule-of-a-Half, III Hotelling consumer surplus integral) for evaluating user benefits from transportation projects and linking them to accessibility.
+- [Oi and Shuldiner 1962](entities/work--oi-and-shuldiner-1962.md) — Early US study that drew attention to household-based approaches for trip generation, cited as a precursor to Wootton and Pick's category analysis.
+- [Ortúzar 1983](entities/work--ortuzar-1983.md) — Cited work by Juan de Dios Ortúzar on nested logit applications in travel demand modelling.
+- [Ortúzar and Willumsen 2011](entities/work--ortuzar-and-willumsen-2011.md) — Text by Juan de Dios Ortúzar and Luis Willumsen on modelling transport, referenced for discussions of stated preference, mixed logit and latent variables.
+- [Quandt 1968](entities/work--quandt-1968.md) — Work cited for a random-parameter modal choice model involving air and car alternatives between Californian cities.
+- [Quarmby 1967](entities/work--quarmby-1967.md) — David Quarmby's 1967 Leeds Ph.D. study of modal choice for commuting to Leeds CBD, which derived behavioural values of time and informed UK generalised-cost practice.
+- [Raveau et al 2010](entities/work--raveau-et-al-2010.md) — Paper by Sebastián Raveau and colleagues on latent variables in discrete choice models.
 - [Requiem for Large-Scale Models](entities/work--requiem-for-large-scale-models.md) — Douglass Lee's 1973 critique of large-scale urban land use models.
+- [Revelt and Train 1998](entities/work--revelt-and-train-1998.md) — Paper by David Revelt and Kenneth Train using the random parameters form of the mixed logit model to examine taste variation.
+- [Richards and Ben-Akiva 1975](entities/work--richards-and-ben-akiva-1975.md) — Book and study cited for an Eindhoven application of disaggregate and simultaneous probabilistic urban travel demand models.
+- [Rose and Bliemer 2013](entities/work--rose-and-bliemer-2013.md) — Review by John Rose and Michiel Bliemer of experimental design strategies for stated choice experiments, including efficient designs for non-linear discrete choice models.
+- [Ruiter and Ben-Akiva 1978](entities/work--ruiter-and-ben-akiva-1978.md) — Report describing the Metropolitan Transportation Commission disaggregate travel forecasting model for the San Francisco Bay Area, including comparisons with the traditional four-step procedure.
+- [Small 1982](entities/work--small-1982.md) — Paper by Kenneth Small introducing the schedule delay concept in the context of commuting travel timing decisions.
+- [Small 2012](entities/work--small-2012.md) — Overview by Kenneth Small of what is known and not known about the value of time and the value of reliability.
+- [Small and Rosen 1981](entities/work--small-and-rosen-1981.md) — Paper by Kenneth Small and Harvey Rosen that, alongside McFadden (1981), established theoretical foundations for using logsum measures and their extensions in welfare evaluation of projects and policies.
+- [Snickars and Weibull 1977](entities/work--snickars-and-weibull-1977.md) — Work that offered an alternative 'minimum information adding' interpretation of the entropy maximising approach to trip distribution.
+- [Sobel 1980](entities/work--sobel-1980.md) — Cited work on the nested logit model in the context of practical compromise between generality and computational ease.
+- [Spear 1977](entities/work--spear-1977.md) — US DoT report cited by Boyce and Williams for early applications of individual choice models in urban travel forecasting.
+- [Starkie 1973](entities/work--starkie-1973.md) — Review of early UK transportation studies cited by Boyce and Williams; identified the unsuitable transfer of US trip-end modal split methods to the UK.
+- [Stopher and Meyburg 1975](entities/work--stopher-and-meyburg-1975.md) — Work cited for views on the inconclusive evidence for simultaneous or recursive behavioural model structures.
+- [Stopher and Meyburg 1976](entities/work--stopher-and-meyburg-1976.md) — Conference proceedings edited by Peter Stopher and Anthony Meyburg containing papers on discrete choice models.
+- [Stopher et al 1981](entities/work--stopher-et-al-1981.md) — Edited conference proceedings containing papers on discrete choice models.
+- [Tanner 1965](entities/work--tanner-1965.md) — Source work by John Tanner presenting the logistic-curve time-series approach to car ownership forecasting at the UK Road Research Laboratory.
+- [Traffic in Towns](entities/work--traffic-in-towns.md) — 1963 report to the UK Minister of Transport on the long-term consequences of car ownership and use for mobility and the urban environment, led by Colin Buchanan.
+- [Train 1980](entities/work--train-1980.md) — Cited work on the nested logit model in the context of practical compromise between generality and computational ease.
+- [Train 1986](entities/work--train-1986.md) — Cited text by Kenneth Train on discrete choice econometrics applied to transportation, housing and urban systems.
+- [Train 2009](entities/work--train-2009.md) — Text by Kenneth Train on simulation approaches to choice modelling, widely cited for its clarity and treatment of mixed logit models.
+- [Tversky 1972](entities/work--tversky-1972.md) — Amos Tversky's 1972 paper proposing the elimination-by-aspects (EBA) model as an alternative to the MNL model that avoids the IIA property.
+- [Tversky and Sattath 1979](entities/work--tversky-and-sattath-1979.md) — Paper by Amos Tversky and Shmuel Sattath introducing the hierarchical elimination-by-aspects (HEBA) model, in which alternatives sharing aspects form a preference tree.
+- [UK DfT 2006e](entities/work--uk-dft-2006e.md) — UK Department for Transport guidance or report referenced on mixed logit models.
+- [Van Vliet 1977](entities/work--van-vliet-1977.md) — Source cited for the finding that some heuristic capacity restraint assignment methods did not converge to the equilibrium solution.
+- [Vovsha 1997](entities/work--vovsha-1997.md) — Work by Peter Vovsha identifying and applying the cross-nested logit model to modal choice in Tel Aviv.
+- [Wachs 1973](entities/work--wachs-1973.md) — Source cited by Boyce and Williams (2015) among the early 1970s critiques of conventional urban transportation model systems for policy insensitivity.
+- [Walker 2001](entities/work--walker-2001.md) — Paper by Joan Walker on discrete choice models with latent variables.
+- [Walker 2002](entities/work--walker-2002.md) — Paper by Joan Walker on identification problems in mixed logit models.
+- [Walker and Ben-Akiva 2002](entities/work--walker-and-ben-akiva-2002.md) — Paper by Joan Walker and Moshe Ben-Akiva on latent variable models in discrete choice analysis.
+- [Warner 1962](entities/work--warner-1962.md) — Stanley Warner's 1962 Northwestern Ph.D. thesis on probabilistic binary mode choice between car and transit in Chicago.
+- [Wigan 1977](entities/work--wigan-1977.md) — Source cited for Marcus Wigan's review of UK speed-flow and level-of-service functions used in capacity restraint assignment.
+- [Williams 1977a](entities/work--williams-1977a.md) — Cited work by Huw Williams presenting tree-based nested logit formulations, parameter inequality conditions and logsum welfare measures.
+- [Williams 1977b](entities/work--williams-1977b.md) — Cited work by Huw Williams on nested logit and multinomial logit model structures, including multi-modal and mixed-mode tree structures.
+- [Williams and Senior 1977](entities/work--williams-and-senior-1977.md) — Source cited by Boyce and Williams (2015) for the empirical comparison of Rule-of-a-Half and Hotelling consumer surplus estimates in transportation scheme evaluation.
+- [Williams and Senior 1978](entities/work--williams-and-senior-1978.md) — Cited work by Huw Williams and Martyn Senior applying nested logit logsum measures to evaluate land use and transportation plans in West Yorkshire.
+- [Wilson 1967](entities/work--wilson-1967.md) — Alan Wilson's 1967 paper in Transportation Research that introduced the entropy maximising derivation of spatial interaction models, including the doubly-constrained journey-to-work model and the joint distribution modal split model.
+- [Wilson 1970](entities/work--wilson-1970.md) — Research monograph by Alan Wilson that assembled entropy maximising applications in travel forecasting, commodity flows, location, land use and urban systems theory.
+- [Wilson 1974](entities/work--wilson-1974.md) — Subsequent text by Alan Wilson that further developed the foundations of general urban models and the integration of land use and transportation models.
+- [Wilson and Pownall 1976](entities/work--wilson-and-pownall-1976.md) — University of Leeds study using microsimulation based on synthetic spatial databases to examine micro-level interdependencies and distributional issues in heterogeneous populations.
+- [Wilson et al 1981](entities/work--wilson-et-al-1981.md) — Cited work by Alan Wilson and colleagues on integrated land use and transportation modelling and normative studies of land use.
+- [Wootton 1967](entities/work--wootton-1967.md) — Source cited for John Wootton's development of the TRANSITNET suite of programs for line-based public transport network representation.
+- [Wootton 2004](entities/work--wootton-2004.md) — Source cited by Boyce and Williams for John Wootton's recollections of early UK transportation studies and computing in the 1960s.
+- [Wootton and Pick 1967](entities/work--wootton-and-pick-1967.md) — Source work in which John Wootton and Gerald Pick introduced household-based category analysis for trip generation in the UK.
+- [Zachary 1976](entities/work--zachary-1976.md) — Cited work by Stan Zachary deriving the conditions for probabilistic choice models to be underpinned by translational invariant utility functions.
+- [de Palma et al 2008](entities/work--de-palma-et-al-2008.md) — Multi-author contribution to Marketing Letters on discrete choice methods with latent variables.
+- [de la Barra 1989](entities/work--de-la-barra-1989.md) — Cited work by Tomas de la Barra on integrated land use and transportation modelling.

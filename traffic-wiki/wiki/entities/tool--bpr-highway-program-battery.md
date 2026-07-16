@@ -22,6 +22,7 @@ A documented collection of BPR programs for highway travel forecasting.
 - `in` **Bureau of Public Roads** — `produced` → **BPR Highway Program Battery** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.1/paragraph:1]
 - `out` **BPR Highway Program Battery** — `uses` → **All-or-Nothing Assignment** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.1/paragraph:2]
 - `in` **HUD Transit Battery** — `derived_from` → **BPR Highway Program Battery** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.6/paragraph:5]
+- `in` **Freeman, Fox and Wilbur Smith and Associates** — `uses` → **BPR Highway Program Battery** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.2.2/paragraph:4]
 
 ## Sources
 
