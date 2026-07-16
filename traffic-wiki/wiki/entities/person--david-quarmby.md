@@ -19,8 +19,7 @@ British transport economist whose 1967 Leeds Ph.D. research on modal choice for 
 ## Claims
 
 - `out` **David Quarmby** — `authored` → **Quarmby 1967** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:2]
-- `out` **David Quarmby** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:15]
-- `out` **David Quarmby** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.9/paragraph:14]
+- `out` **David Quarmby** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:15; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.9/paragraph:14]
 
 ## Sources
 

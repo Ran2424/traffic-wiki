@@ -18,8 +18,7 @@ A historical capacity measure defined by acceptable delay, hazard and freedom to
 
 ## Claims
 
-- `in` **BPR Volume–Delay Function** — `uses` → **Practical Capacity** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.5/paragraph:2]
-- `in` **BPR Volume–Delay Function** — `uses` → **Practical Capacity** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/notes/note:27]
+- `in` **BPR Volume–Delay Function** — `uses` → **Practical Capacity** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.5/paragraph:2; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/notes/note:27]
 - `in` **1950 Highway Capacity Manual** — `defined` → **Practical Capacity** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/notes/note:27]
 
 ## Sources

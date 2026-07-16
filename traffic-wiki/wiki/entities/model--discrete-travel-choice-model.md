@@ -21,10 +21,9 @@ Probabilistic model family for travel choices among alternatives, developed with
 
 - `out` **Discrete Travel Choice Model** — `uses` → **Random Utility Maximisation** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:13]
 - `in` **Multinomial Logit Share Model** — `part_of` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:13]
-- `in` **Charles River Associates 1972** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:15]
+- `in` **Charles River Associates 1972** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:15; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:12; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:13]
 - `in` **Ben-Akiva 1973** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:15]
 - `in` **Ben-Akiva 1974** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:15]
-- `in` **Charles River Associates 1972** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:12; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:13]
 
 ## Sources
 

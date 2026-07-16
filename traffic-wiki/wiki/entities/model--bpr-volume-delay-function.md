@@ -20,8 +20,7 @@ A link performance function relating assigned volume and practical capacity to t
 ## Claims
 
 - `in` **Iterative Capacity Restraint Assignment** — `uses` → **BPR Volume–Delay Function** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.5/paragraph:2]
-- `out` **BPR Volume–Delay Function** — `uses` → **Practical Capacity** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.5/paragraph:2]
-- `out` **BPR Volume–Delay Function** — `uses` → **Practical Capacity** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/notes/note:27]
+- `out` **BPR Volume–Delay Function** — `uses` → **Practical Capacity** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/section:2.5.5/paragraph:2; source:boyce-williams-2015-forecasting-urban-travel @ chapter:2/notes/note:27]
 
 ## Sources
 

@@ -23,10 +23,9 @@ Model structure arranging conditional MNL or logit models in a hierarchy over mu
 - `in` **Charles River Associates 1972** — `formulated` → **Hierarchical Logit Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:2; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:2]
 - `in` **Peter Diamond** — `formulated` → **Hierarchical Logit Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:3; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:4]
 - `in` **Inclusive Price** — `operationalizes` → **Hierarchical Logit Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:4; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:10]
-- `out` **Hierarchical Logit Model** — `uses` → **Multinomial Logit Share Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:9]
+- `out` **Hierarchical Logit Model** — `uses` → **Multinomial Logit Share Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:9; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/notes/note:20/formula:shopping-model; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/notes/note:20]
 - `in` **Ben-Akiva 1974** — `formulated` → **Hierarchical Logit Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.3/paragraph:11]
 - `in` **Robert Hall** — `formulated` → **Hierarchical Logit Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:3; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:4]
-- `out` **Hierarchical Logit Model** — `uses` → **Multinomial Logit Share Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/notes/note:20/formula:shopping-model; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/notes/note:20]
 - `out` **Hierarchical Logit Model** — `uses` → **Composite Cost** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:5/section:5.1/paragraph:6]
 
 ## Sources

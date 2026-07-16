@@ -20,11 +20,10 @@ Pioneering study cited by Boyce and Williams for model structures derived within
 ## Claims
 
 - `in` **Charles River Associates** — `produced` → **Charles River Associates 1972** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:15]
-- `out` **Charles River Associates 1972** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:15]
+- `out` **Charles River Associates 1972** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.1/paragraph:15; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:12; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:13]
 - `in` **Daniel McFadden** — `authored` → **Charles River Associates 1972** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.1/paragraph:1]
 - `in` **Thomas Domencich** — `authored` → **Charles River Associates 1972** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.1/paragraph:1]
 - `out` **Charles River Associates 1972** — `formulated` → **Hierarchical Logit Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:2; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:2]
-- `out` **Charles River Associates 1972** — `applied_to` → **Discrete Travel Choice Model** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:12; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:13]
 - `in` **Federal Highway Administration** — `participated_in` → **Charles River Associates 1972** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:1]
 - `in` **Domencich and McFadden 1975** — `extends` → **Charles River Associates 1972** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:4/section:4.4.2/paragraph:1]
 

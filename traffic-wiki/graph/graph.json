@@ -353,7 +353,7 @@
       "target": "model:bpr-volume-delay-function"
     },
     {
-      "evidence_count": 1,
+      "evidence_count": 2,
       "id": "claim:boyce-williams-2015-ch2:045",
       "predicate": "uses",
       "source": "model:bpr-volume-delay-function",
@@ -631,14 +631,6 @@
       "source": "model:cats-congested-travel-time-function",
       "status": "proposed",
       "target": "metric:design-capacity"
-    },
-    {
-      "evidence_count": 1,
-      "id": "claim:boyce-williams-2015-ch2:080",
-      "predicate": "uses",
-      "source": "model:bpr-volume-delay-function",
-      "status": "proposed",
-      "target": "metric:practical-capacity"
     },
     {
       "evidence_count": 1,
@@ -1209,7 +1201,7 @@
       "target": "concept:generalised-cost-of-travel"
     },
     {
-      "evidence_count": 1,
+      "evidence_count": 2,
       "id": "claim:boyce-williams-2015-ch3-4:012",
       "predicate": "affiliated_with",
       "source": "person:alan-wilson",
@@ -1225,7 +1217,7 @@
       "target": "organization:uk-ministry-of-transport"
     },
     {
-      "evidence_count": 1,
+      "evidence_count": 2,
       "id": "claim:boyce-williams-2015-ch3-4:014",
       "predicate": "affiliated_with",
       "source": "person:david-quarmby",
@@ -1745,22 +1737,6 @@
       "target": "method:rule-of-a-half"
     },
     {
-      "evidence_count": 1,
-      "id": "claim:boyce-williams-2015-ch3-9:001",
-      "predicate": "affiliated_with",
-      "source": "person:alan-wilson",
-      "status": "proposed",
-      "target": "organization:mathematical-advisory-unit"
-    },
-    {
-      "evidence_count": 1,
-      "id": "claim:boyce-williams-2015-ch3-9:003",
-      "predicate": "affiliated_with",
-      "source": "person:david-quarmby",
-      "status": "proposed",
-      "target": "organization:mathematical-advisory-unit"
-    },
-    {
       "evidence_count": 2,
       "id": "claim:boyce-williams-2015-ch3-9:004",
       "predicate": "authored",
@@ -1809,7 +1785,7 @@
       "target": "concept:urban-transportation-model-system"
     },
     {
-      "evidence_count": 1,
+      "evidence_count": 3,
       "id": "claim:boyce-williams-2015-ch4-1:001",
       "predicate": "uses",
       "source": "method:disaggregate-behavioural-approach",
@@ -1825,7 +1801,7 @@
       "target": "method:disaggregate-modal-choice-model"
     },
     {
-      "evidence_count": 3,
+      "evidence_count": 4,
       "id": "claim:boyce-williams-2015-ch4-1:003",
       "predicate": "contrasts_with",
       "source": "method:disaggregate-behavioural-approach",
@@ -1881,7 +1857,7 @@
       "target": "work:charles-river-associates-1972"
     },
     {
-      "evidence_count": 1,
+      "evidence_count": 3,
       "id": "claim:boyce-williams-2015-ch4-1:010",
       "predicate": "applied_to",
       "source": "work:charles-river-associates-1972",
@@ -2034,14 +2010,6 @@
     },
     {
       "evidence_count": 1,
-      "id": "claim:boyce-williams-2015-ch4-2:018",
-      "predicate": "uses",
-      "source": "method:disaggregate-behavioural-approach",
-      "status": "proposed",
-      "target": "method:multinomial-logit-share-model"
-    },
-    {
-      "evidence_count": 1,
       "id": "claim:boyce-williams-2015-ch4-3:001",
       "predicate": "authored",
       "source": "person:bruce-spear",
@@ -2071,14 +2039,6 @@
       "source": "method:disaggregate-behavioural-approach",
       "status": "proposed",
       "target": "concept:transportation-system-management"
-    },
-    {
-      "evidence_count": 1,
-      "id": "claim:boyce-williams-2015-ch4-3:005",
-      "predicate": "uses",
-      "source": "method:disaggregate-behavioural-approach",
-      "status": "proposed",
-      "target": "method:multinomial-logit-share-model"
     },
     {
       "evidence_count": 1,
@@ -2170,14 +2130,6 @@
     },
     {
       "evidence_count": 1,
-      "id": "claim:boyce-williams-2015-ch4-3:017",
-      "predicate": "contrasts_with",
-      "source": "method:disaggregate-behavioural-approach",
-      "status": "proposed",
-      "target": "method:traditional-four-step-travel-forecasting-procedure"
-    },
-    {
-      "evidence_count": 1,
       "id": "claim:boyce-williams-2015-ch4-4:001",
       "predicate": "authored",
       "source": "person:daniel-mcfadden",
@@ -2233,20 +2185,12 @@
       "target": "method:hierarchical-logit-model"
     },
     {
-      "evidence_count": 1,
+      "evidence_count": 3,
       "id": "claim:boyce-williams-2015-ch4-4:008",
       "predicate": "uses",
       "source": "method:hierarchical-logit-model",
       "status": "proposed",
       "target": "method:multinomial-logit-share-model"
-    },
-    {
-      "evidence_count": 2,
-      "id": "claim:boyce-williams-2015-ch4-4:009",
-      "predicate": "applied_to",
-      "source": "work:charles-river-associates-1972",
-      "status": "proposed",
-      "target": "model:discrete-travel-choice-model"
     },
     {
       "evidence_count": 2,
@@ -2695,14 +2639,6 @@
       "source": "work:richards-and-ben-akiva-1975",
       "status": "proposed",
       "target": "place:eindhoven-region"
-    },
-    {
-      "evidence_count": 2,
-      "id": "claim:boyce-williams-2015-ch4-notes:002",
-      "predicate": "uses",
-      "source": "method:hierarchical-logit-model",
-      "status": "proposed",
-      "target": "method:multinomial-logit-share-model"
     },
     {
       "evidence_count": 1,

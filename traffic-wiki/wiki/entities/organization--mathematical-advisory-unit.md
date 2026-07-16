@@ -19,11 +19,9 @@ Unit within the Economic Planning Directorate of the UK Ministry of Transport wh
 
 ## Claims
 
-- `in` **Alan Wilson** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:15]
+- `in` **Alan Wilson** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:15; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.9/paragraph:14]
 - `out` **Mathematical Advisory Unit** — `part_of` → **UK Ministry of Transport** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:15; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.9/paragraph:14]
-- `in` **David Quarmby** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:15]
-- `in` **Alan Wilson** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.9/paragraph:14]
-- `in` **David Quarmby** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.9/paragraph:14]
+- `in` **David Quarmby** — `affiliated_with` → **Mathematical Advisory Unit** [proposed; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.4.2/paragraph:15; source:boyce-williams-2015-forecasting-urban-travel @ chapter:3/section:3.9/paragraph:14]
 
 ## Sources
 
